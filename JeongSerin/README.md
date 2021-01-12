@@ -1,4 +1,4 @@
-B_S2_15486\_퇴사2# 2021 Algorithm Study
+# 2021 Algorithm Study
 ## JeongSerin
 
 ### 1월
