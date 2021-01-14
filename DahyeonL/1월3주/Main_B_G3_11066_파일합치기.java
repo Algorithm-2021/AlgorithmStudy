@@ -1,5 +1,11 @@
-package algo_study_2021;
-
+/*
+ * -파일합치기-
+ * 못품
+ *
+ * 메모리 : 
+ * 시간 : 
+ * 풀이 시간 : 6H ing
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
