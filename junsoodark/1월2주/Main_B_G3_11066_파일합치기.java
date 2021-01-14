@@ -5,7 +5,6 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main_B_G3_11066_파일합치기 {
-	static int dp[][] = new int[501][501];
 	static int T, N;
 
 	public static void main(String[] args) throws Exception {
