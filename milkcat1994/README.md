@@ -8,7 +8,7 @@
 
  
 
-## 1월 2주
+## 1월 3주
 ### G3
 * [Main_B_G3_11066_파일합치기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월2주/Main_B_G3_11066_파일합치기.java)
 > * 출처 : https://www.acmicpc.net/problem/11066
