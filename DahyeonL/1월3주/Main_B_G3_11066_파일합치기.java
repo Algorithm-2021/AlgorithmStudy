@@ -6,6 +6,7 @@
  * 시간 : 
  * 풀이 시간 : 8H ing
  */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -53,8 +54,18 @@ static int test,K,Kvalue[],sumDist[],dp[][],min;
 			return dp[n][m];
 		}
 		for (int k = n; k < m; k++) {
-//			System.out.println(sumDist(n,m));
-			min = Integer.min(min, dp[n][k]+dp[k+1][m]+sumDist[m]);//식이 아닌듯
+			//두 파트로 나눈 값들
+			int temp;
+			if(k==n) {
+			 temp = 0;	
+			}else {
+				if(n==0) {
+					temp = sumDist[k];
+				}else {
+					temp = sumDist[k]-sumDist[n-1];
+				}
+			}
+			min = Integer.min(min, dp(n,k)+dp(k+1,m)+temp+sumDist[m]-sumDist[k]);
 		}
 		dp[n][m]= min;
 		return dp[n][m];
