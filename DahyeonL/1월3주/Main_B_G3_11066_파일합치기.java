@@ -1,12 +1,14 @@
 /*
  * -파일합치기-
- * 못품
+ * dp[i][j] = i부터 j까지를 더하는  최소값
+ * dp[i][i] = Kvalue[i]
+ * dp[i][i+1] = Kvalue[i]+Kvalue[i+1]
+ * dp[i][j] = dp[i][k]+dp[k+1][j]+i와 j 사이의 수를 더한값 = sumDist(i,j) -> 임의의 k에 관한 최소값
  *
- * 메모리 : 
- * 시간 : 
- * 풀이 시간 : 8H ing
+ * 메모리 : 19964 KB
+ * 시간 : 852 ms
+ * 풀이 시간 : 10H
  */
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -65,10 +67,18 @@ static int test,K,Kvalue[],sumDist[],dp[][],min;
 					temp = sumDist[k]-sumDist[n-1];
 				}
 			}
-			min = Integer.min(min, dp(n,k)+dp(k+1,m)+temp+sumDist[m]-sumDist[k]);
+			int temp2;
+			if(k+1 == m) {
+				temp2 = sumDist[m]-sumDist[k] - Kvalue[m];
+			}else {
+				temp2 = sumDist[m]-sumDist[k];
+			}
+			min = Integer.min(min, dp(n,k)+dp(k+1,m)+temp+temp2);
 		}
 		dp[n][m]= min;
 		return dp[n][m];
 	}
+
+}
 
 }
