@@ -4,7 +4,7 @@
  *
  * 메모리 : 
  * 시간 : 
- * 풀이 시간 : 6H ing
+ * 풀이 시간 : 8H ing
  */
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,7 +18,7 @@ static int test,K,Kvalue[],sumDist[],dp[][],min;
 	//dp[i][j] = i부터 j까지를 더하는  최소값
 	//dp[i][i] = Kvalue[i]
 	//dp[i][i+1] = Kvalue[i]+Kvalue[i+1]
-	//dp[i][j] = dp[i][k]+dp[k][j]+i와 j 사이의 수를 더한값 = sumDist(i,j) -> 임의의 k에 관한 최소값
+	//dp[i][j] = dp[i][k]+dp[k+1][j]+i와 j 사이의 수를 더한값 = sumDist(i,j) -> 임의의 k에 관한 최소값
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -46,26 +46,16 @@ static int test,K,Kvalue[],sumDist[],dp[][],min;
 			System.out.println(dp(0,K-1));
 		}
 	}
-	static int sumDist(int i, int j) {
-		if(i==0) {
-			return sumDist[j];
-		}else {
-			return sumDist[j]-sumDist[i];
-		}
-	}
 	
 	static int dp(int n,int m) {
+		//값이 존재할떄
 		if(dp[n][m]!=0) {
 			return dp[n][m];
 		}
-		//how to solve it....
-//		for (int j = 2; j < K; j++) {
-//			for (int i = 0; i < K; i++) {
-//				for (int k = n+1; k < m; k++) {
-//					min = Integer.min(min, dp[n][k]+dp[k][m]+sumDist(n,m));
-//				}
-//			}
-//		}
+		for (int k = n; k < m; k++) {
+//			System.out.println(sumDist(n,m));
+			min = Integer.min(min, dp[n][k]+dp[k+1][m]+sumDist[m]);//식이 아닌듯
+		}
 		dp[n][m]= min;
 		return dp[n][m];
 	}
