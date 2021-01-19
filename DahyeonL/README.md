@@ -11,3 +11,5 @@
 > * 출처 : https://www.acmicpc.net/problem/11066
 
 ## 2021-01-16 ~ 2021-01-22
+* [Main_B_G5_14502_연구소](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/DahyeonL/1%EC%9B%944%EC%A3%BC/Main_B_G5_14502_%EC%97%B0%EA%B5%AC%EC%86%8C.java)
+> * 출처 : https://www.acmicpc.net/problem/14502
