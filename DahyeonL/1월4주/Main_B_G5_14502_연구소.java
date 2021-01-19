@@ -1,5 +1,14 @@
-package algo_study_2021;
-
+/*
+ * -행렬곱셈순서-
+ * dp[i,j] -> i에서 j번까지 행렬곱셈 수의 가장 작은 값
+ * dp[i,i] -> 0
+ * dp[i,i+1] -> r[i]xc[i]xr[i+1]
+ * dp[i,j] -> dp[i,k]+dp[k+1,j] + r[i]xr[k+1]Xc[j] 중 최솟값
+ *
+ * 메모리 : 98180 KB
+ * 시간 : 432 ms
+ * 풀이 시간 : 6H
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
