@@ -18,6 +18,6 @@
    | ---------------------------------------- | ------------------------------------- |
    | [B_G3_10800\_컬러볼](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G3_10800_%EC%BB%AC%EB%9F%AC%EB%B3%BC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/10800 |
    | [B_G4_2638\_치즈]()                        | https://www.acmicpc.net/problem/2638  |
-   | [B_G5_14502_연구소]()                       | https://www.acmicpc.net/problem/14502 |
+   | [B_G5_14502_연구소](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G5_14502_%EC%97%B0%EA%B5%AC%EC%86%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java)                       | https://www.acmicpc.net/problem/14502 |
 
 
