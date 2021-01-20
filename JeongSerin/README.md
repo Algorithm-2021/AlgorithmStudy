@@ -12,3 +12,12 @@
    | [B_G3_11049_행렬곱셈순서](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%942%EC%A3%BC/Main_B_G3_11049_%ED%96%89%EB%A0%AC%EA%B3%B1%EC%85%88%EC%88%9C%EC%84%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/11049 |
 
 
+* 3주
+
+   | 문제                                       | 출처                                    |
+   | ---------------------------------------- | ------------------------------------- |
+   | [B_G3_10800\_컬러볼](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G3_10800_%EC%BB%AC%EB%9F%AC%EB%B3%BC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/10800 |
+   | [B_G4_2638\_치즈]()                        | https://www.acmicpc.net/problem/2638  |
+   | [B_G5_14502_연구소]()                       | https://www.acmicpc.net/problem/14502 |
+
+
