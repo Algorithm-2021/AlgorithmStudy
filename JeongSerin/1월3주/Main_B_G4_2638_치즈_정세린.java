@@ -37,7 +37,6 @@ public class Main_B_G4_2638_치즈_정세린 {
 			}
 		}	// end of input
 		
-		
 		while (cheese > 0) {
 			cnt = new int[N][M];	// 치즈가 공기와 닿는 면의 수 저장
 			visited = new boolean[N][M];	// 방문 여부
