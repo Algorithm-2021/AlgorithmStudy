@@ -1,6 +1,6 @@
 /*
- * 20076KB
- * 148ms
+ * 15988KB
+ * 176ms
  * 1H 30m
  * 1. dfs(0, 0)로 탐색 시작: 가장자리엔 치즈가 없다-조건
  *    - 0일경우 방문 처리 후 다음 위치 방문
@@ -16,6 +16,7 @@ package BAEKJOON;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -36,6 +37,8 @@ public class Main_B_G4_2638_치즈_정세린 {
 		M = Integer.parseInt(st.nextToken());
 		map = new int[N][M];
 		q = new LinkedList<Integer>();
+		cnt = new int[N][M];	// 치즈가 공기와 닿는 면의 수 저장
+		visited = new boolean[N][M];	// 방문 여부
 		
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -46,8 +49,12 @@ public class Main_B_G4_2638_치즈_정세린 {
 		}	// end of input
 		
 		while (cheese > 0) {
-			cnt = new int[N][M];	// 치즈가 공기와 닿는 면의 수 저장
-			visited = new boolean[N][M];	// 방문 여부
+			// 초기화
+			for(int i = 0; i < N;i++) {
+				Arrays.fill(cnt[i], 0);
+				Arrays.fill(visited[i], false);
+			}
+
 			dfs(0, 0);	// 녹을 수 있는 치즈 탐색
 			melting();	//	치즈 녹이기
 			time++;	// 시간 추가
