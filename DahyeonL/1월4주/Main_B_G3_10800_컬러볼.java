@@ -1,5 +1,10 @@
-package algo_study_2021;
-
+/*
+ * -컬러볼-
+ * 시간초과
+ * 메모리 :
+ * 시간 : 
+ * 풀이 시간 : 3H 30min
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
