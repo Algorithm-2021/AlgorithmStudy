@@ -101,16 +101,15 @@ public class Main_B_G4_18223_민준이와마산그리고건우 {
 			e = Integer.parseInt(st.nextToken());
 			w = Integer.parseInt(st.nextToken());
 			
-			edges.get(s).add(new Edge(s,e,w));
-			edges.get(e).add(new Edge(e,s,w));
+			edges.get(s).add(new Edge(e,w));
+			edges.get(e).add(new Edge(s,w));
 		}
 	}
 	
 	static class Edge {
-		int s,e, w;
+		int e, w;
 		
-		Edge(int s, int e, int w){
-			this.s = s;
+		Edge(int e, int w){
 			this.e = e;
 			this.w = w;
 		}
