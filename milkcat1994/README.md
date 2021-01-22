@@ -23,8 +23,10 @@
 ### G4
 * [Main_B_G4_2638_치즈](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월4주/Main_B_G4_2638_치즈.java)
 > * 출처 : https://www.acmicpc.net/problem/2638
+### G3
 * Main_B_G3_100800_컬러볼
 > * 출처 : https://www.acmicpc.net/problem/10800
+### G1
 * Main_B_G1_1194_달이차오른다가자
 > * 출처 : https://www.acmicpc.net/problem/1194
 
