@@ -23,8 +23,8 @@ public class Main_B_G5_14502_연구소 {
     static List<Node> virusPosition = new ArrayList<Node>();
 
     public static void main( String[] args ) throws IOException, NumberFormatException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(in.readLine(), " ");
 
         //Get Input Area
         N = Integer.parseInt(st.nextToken());
@@ -33,7 +33,7 @@ public class Main_B_G5_14502_연구소 {
         map = new int[N][M];
         nmap = new int[N][M];
         for( int i=0;i<N;i++){
-            st =new StringTokenizer(br.readLine(), " ");
+            st =new StringTokenizer(in.readLine(), " ");
             for(int j=0;j<M;j++){
                 map[i][j] = Integer.parseInt(st.nextToken());
                 if(map[i][j] == 2)
