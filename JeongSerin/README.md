@@ -17,7 +17,16 @@
    | 문제                                       | 출처                                    |
    | ---------------------------------------- | ------------------------------------- |
    | [B_G3_10800\_컬러볼](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G3_10800_%EC%BB%AC%EB%9F%AC%EB%B3%BC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/10800 |
-   | [B_G4_2638\_치즈](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G4_2638_%EC%B9%98%EC%A6%88_%EC%A0%95%EC%84%B8%EB%A6%B0.java)                        | https://www.acmicpc.net/problem/2638  |
-   | [B_G5_14502_연구소](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G5_14502_%EC%97%B0%EA%B5%AC%EC%86%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java)                       | https://www.acmicpc.net/problem/14502 |
+   | [B_G4_2638\_치즈](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G4_2638_%EC%B9%98%EC%A6%88_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/2638  |
+   | [B_G5_14502_연구소](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%943%EC%A3%BC/Main_B_G5_14502_%EC%97%B0%EA%B5%AC%EC%86%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/14502 |
+
+
+* 4주
+
+   | 문제                       | 출처                                    |
+   | ------------------------ | ------------------------------------- |
+   | [B_G5_2493\_탑]()         | https://www.acmicpc.net/problem/2493  |
+   | [B_G4_5427\_불]()         | https://www.acmicpc.net/problem/5427  |
+   | [B_S2_18352_특정거리의도시찾기]() | https://www.acmicpc.net/problem/18352 |
 
 
