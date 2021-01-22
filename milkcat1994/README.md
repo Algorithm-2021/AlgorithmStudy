@@ -21,3 +21,10 @@
 ### G4
 * [Main_B_G4_2638_치즈](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월4주/Main_B_G4_2638_치즈.java)
 > * 출처 : https://www.acmicpc.net/problem/2638
+
+ 
+
+## 1월 5주
+### G5
+* [Main_B_G5_2493_탑](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월5주/Main_B_G5_2493_탑.java)
+> * 출처 : https://www.acmicpc.net/problem/2493
