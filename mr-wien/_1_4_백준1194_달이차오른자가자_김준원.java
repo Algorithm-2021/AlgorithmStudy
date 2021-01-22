@@ -6,7 +6,7 @@ import java.util.Comparator;
  * 코드 동작시간 : 864ms
  * 풀이에 걸린 시간 : 4h ..
  */
-public class 백준10800_컬러볼_김준원 {
+public class _1_4_백준1194_달이차오른자가자_김준원 {
 	public static void main(String[] args) throws Exception {
 		int n = 0, t;
 		for (t = System.in.read(); t != '\n'; t = System.in.read())

@@ -5,7 +5,7 @@
  *      시작 - 13:00
  *      종료 - 
  */
-public class 백준11066_파일합치기_김준원_ing {
+public class _1_3_백준11066_파일합치기_김준원_ing {
     public static void main(String[] args) throws Exception {
         int testcase = 0, t, k = 0, res = 0;
         for (t = System.in.read(); t != '\n'; t = System.in.read())
