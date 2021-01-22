@@ -1,6 +1,6 @@
 /*
- * 사용 메모리 : 12968 KB
- * 코드 동작시간 : 96 ms
+ * 사용 메모리 : 12932 KB
+ * 코드 동작시간 : 92 ms
  * 풀이에 걸린 시간 : 2 h
  */
 public class _1_4_백준1194_달이차오른자가자_김준원 {
@@ -18,7 +18,7 @@ public class _1_4_백준1194_달이차오른자가자_김준원 {
 			if ('0' <= t && t <= '9')
 				m = m * 10 + t - '0';
 		a = new char[n][m];
-		visit = new long[n][128];
+		visit = new long[n][64];
 		r = f = null;
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
