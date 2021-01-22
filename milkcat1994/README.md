@@ -39,5 +39,5 @@
 ### G4
 * [Main_B_G4_5427_불](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월5주/Main_B_G4_5427_불.java)
 > * 출처 : https://www.acmicpc.net/problem/5427
-* Main_B_G4_18223_민준이와마산그리고건우
+* [Main_B_G4_18223_민준이와마산그리고건우](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월5주/Main_B_G4_18223_민준이와마산그리고건우.java)
 > * 출처 : https://www.acmicpc.net/problem/18223
