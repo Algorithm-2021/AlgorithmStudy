@@ -11,3 +11,7 @@ https://www.acmicpc.net/problem/11066
 * [백준 G3_10800_컬러볼](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/1%EC%9B%94%203%EC%A3%BC/Main_B_G3_10800_%EC%BB%AC%EB%9F%AC%EB%B3%BC) | 
 https://www.acmicpc.net/problem/10800
 
+* [백준 G4_14502_연구소](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/1%EC%9B%94%203%EC%A3%BC/Main_B_G5_14502_%EC%97%B0%EA%B5%AC%EC%86%8C.java) | 
+https://www.acmicpc.net/problem/14502
+
+
