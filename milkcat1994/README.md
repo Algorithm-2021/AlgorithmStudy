@@ -14,6 +14,8 @@
 > * 출처 : https://www.acmicpc.net/problem/11066
 * [Main_B_G3_11049_행렬곱셈순서](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월3주/Main_B_G3_11049_행렬곱셈순서.java)
 > * 출처 : https://www.acmicpc.net/problem/11049
+* Main_B_G1_1328_고층빌딩
+> * 출처 : https://www.acmicpc.net/problem/1328
 
  
 
@@ -21,6 +23,10 @@
 ### G4
 * [Main_B_G4_2638_치즈](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월4주/Main_B_G4_2638_치즈.java)
 > * 출처 : https://www.acmicpc.net/problem/2638
+* Main_B_G3_100800_컬러볼
+> * 출처 : https://www.acmicpc.net/problem/10800
+* Main_B_G1_1194_달이차오른다가자
+> * 출처 : https://www.acmicpc.net/problem/1194
 
  
 
@@ -31,3 +37,5 @@
 ### G4
 * [Main_B_G4_5427_불](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월5주/Main_B_G4_5427_불.java)
 > * 출처 : https://www.acmicpc.net/problem/5427
+* Main_B_G4_18223_민준이와마산그리고건우
+> * 출처 : https://www.acmicpc.net/problem/18223
