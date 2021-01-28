@@ -19,42 +19,31 @@ import java.util.StringTokenizer;
 
 public class Main_B_G5_2493_탑_정세린 {
 	
-	static class Tower{	// 타워의 정보
-		int height;
-		int index;
-		
-		public Tower(int height, int index) {
-			this.height = height;
-			this.index = index;
-		}
-	}
-	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		int[] towers = new int [N];
-		Stack<Tower> s = new Stack<Tower>();	// 현재 이전의 타워들을 담음
+		int[] tower = new int [N];
+		Stack<Integer> stack = new Stack<Integer>();	// 탑의 정보(인덱스)를 담을 스택
 		for (int i = 0; i < N; i++) {
-			towers[i] = Integer.parseInt(st.nextToken());	// 타워의 높이들을 저장
+			tower[i] = Integer.parseInt(st.nextToken());	// 타워의 높이들을 저장
 		}	// end of input
 	
 		StringBuilder sb = new StringBuilder();
 		sb.append("0 ");	// 맨 처음 타워의 신호를 수신해줄 타워가 없음
 		
-		s.add(new Tower(towers[0], 0));	// 첫번째 타워를 스택에 담음
-		int topIdx = 0;
+		stack.add(0);
 		for (int i = 1; i < N; i++) {
-			int cur = towers[i];
+			int cur = tower[i];
 			
-			while (!s.isEmpty() && s.peek().height < cur) {	// 스택 탑이 현재 탑보다 클때까지 pop (수신할수 있는 타워만 남김)
-				s.pop();	// 현재 탑이 더 높다면 이전의 작은 탑들은 어차피 수산하지 못함. pop해서 버림
+			while (!stack.isEmpty() && tower[stack.peek()] < cur) {	// 스택 탑이 현재 탑보다 클때까지 pop (수신할수 있는 타워만 남김)
+				stack.pop();	// 현재 탑이 더 높다면 이전의 작은 탑들은 어차피 수산하지 못함. pop해서 버림
 			}
 			
-			if (!s.isEmpty()) sb.append(s.peek().index+1 + " ");	// 스택이 비어있지 않다면 수신 가능한 탑이 스택의 top에 있음
+			if (!stack.isEmpty()) sb.append(stack.peek() + 1 + " ");	// 스택이 비어있지 않다면 수신 가능한 탑이 스택의 top에 있음
 			else sb.append("0 ");	// 스택이 비어있다면 수신 가능한 탑이 하나도 없음
 			
-			s.add(new Tower(cur, i));	// 현재 탑을 스택에 담음 (햔재 탑이 수신 가능할지 아닐지 모르기 떄문)
+			stack.add(i);	// 현재 탑을 스택에 담음 (햔재 탑이 수신 가능할지 아닐지 모르기 떄문)
 		}
 		
 		System.out.println(sb.toString());
