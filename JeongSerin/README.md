@@ -25,7 +25,7 @@
 
    | 문제                       | 출처                                    |
    | ------------------------ | ------------------------------------- |
-   | [B_G5_2493\_탑]()         | https://www.acmicpc.net/problem/2493  |
+   | [B_G5_2493\_탑](https://github.com/Algorithm-2021/AlgorithmStudy/tree/master/JeongSerin/1%EC%9B%944%EC%A3%BC)         | https://www.acmicpc.net/problem/2493  |
    | [B_G4_5427\_불]()         | https://www.acmicpc.net/problem/5427  |
    | [B_S2_18352_특정거리의도시찾기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%944%EC%A3%BC/Main_B_S2_18352_%ED%8A%B9%EC%A0%95%EA%B1%B0%EB%A6%AC%EC%9D%98%EB%8F%84%EC%8B%9C%EC%B0%BE%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/18352 |
 
