@@ -64,3 +64,5 @@
 ### S1
 * [Main_B_S1_1991_트리순회](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월1주/Main_B_S1_1991_트리순회.java)
 > * 출처 : https://www.acmicpc.net/problem/1991
+* [Main_B_S1_1068_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월1주/Main_B_S1_1068_트리.java)
+> * 출처 : https://www.acmicpc.net/problem/1068
