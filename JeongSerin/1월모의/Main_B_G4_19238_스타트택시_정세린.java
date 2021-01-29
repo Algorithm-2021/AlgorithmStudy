@@ -1,5 +1,13 @@
 /*
+ * 19300KB
+ * 176ms
+ * 7H
+ * compare i,j오타없나잘보기....
  * 
+ * 1. 출발지~도착지 거리 구해두기
+ * 2. 출발~ 도착가는길이 막혀있으면 -1 출력
+ * 3. pq로 현 위치에서 가장 가까운 승객 찾기
+ * 4. 연료 계산 및 연료 부족한지 체크하기
  */
 package BAEKJOON;
 
@@ -13,7 +21,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class ING_Main_B_G4_19238_스타트택시_정세린 {
+public class Main_B_G4_19238_스타트택시_정세린 {
 	static int N, M, fuel, starti, startj;
 	static int[][] map;
 	static int[][] destination;	// 도착지들 정보 [cusNum][좌표]   0: i, 1: j
@@ -26,8 +34,8 @@ public class ING_Main_B_G4_19238_스타트택시_정세린 {
 	static Queue<Point> pq = new PriorityQueue<Point>(new Comparator<Point>() {
 		@Override
 		public int compare(Point o1, Point o2) {
-			int tmp = o1.i - o1.j;
-			if (tmp == 0) return o2.i - o2.j; 
+			int tmp = o1.i - o2.i;
+			if (tmp == 0) return o1.j - o2.j; 
 			return tmp;
 		}
 	});
@@ -91,7 +99,6 @@ public class ING_Main_B_G4_19238_스타트택시_정세린 {
 		
 		if (M > 0) System.out.println(-1);
 		else System.out.println(fuel);
-		
 	}
 	
 	static boolean getNearPass() {
@@ -133,7 +140,6 @@ public class ING_Main_B_G4_19238_스타트택시_정세린 {
 				fuel += distance[cusNum]*2;	// 완료 휴 연료충전
 				M--;	// 완료 후 승객 --
 				
-				System.out.println(fuel);
 				starti = destination[cusNum][0];	// 도착지가 출발지가됨
 				startj = destination[cusNum][1];
 				
