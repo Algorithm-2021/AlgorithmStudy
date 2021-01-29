@@ -21,8 +21,7 @@ public class ING_Main_B_G4_19238_스타트택시_정세린 {
 	static boolean[][] visited;
 	static final int WALL = -10000;
 	
-	// 안됨 찾은 손님 size안에서 pq에 담아서 비교해서뺴기
-	static int[][] dh = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};	// 1순위 행번호가 작은것, 2순위 열번호가 작은 것
+	static int[][] dh = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};	
 	static Queue<Point> q = new LinkedList<Point>();
 	static Queue<Point> pq = new PriorityQueue<Point>(new Comparator<Point>() {
 		@Override
@@ -123,18 +122,18 @@ public class ING_Main_B_G4_19238_스타트택시_정세린 {
 			if (pq.size() > 0) {
 				Point near = pq.poll();
 				int cusNum = map[near.i][near.j];
-				System.out.println(cusNum);
 				map[near.i][near.j] = 0;
 				
 				fuel -= near.dist;	// 승객에게 가는데 드는 연료
 				if (fuel <= 0) return false;	// 도착하면 승객을 태우고 가야하므로 0보다 커야함
-				
+
 				fuel -= distance[cusNum];	// 승객을 태워주는데 드는 연료
 				if (fuel < 0) return false;	// 도착한 시점에서 연료를 채우므로 0이상이면 됨
 				
 				fuel += distance[cusNum]*2;	// 완료 휴 연료충전
 				M--;	// 완료 후 승객 --
 				
+				System.out.println(fuel);
 				starti = destination[cusNum][0];	// 도착지가 출발지가됨
 				startj = destination[cusNum][1];
 				
