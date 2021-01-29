@@ -91,9 +91,8 @@ public class Main_B_G4_19238_스타트택시_정세린 {
 		}	// end of input
 		
 		while (M > 0) {
-			// 가장 가까운 승객 구하기
-			boolean near = getNearPass();
-			
+			// 가장 가까운 승객 데려다 주기
+			boolean near = nearPass();
 			if (!near) break;
 		}
 		
@@ -101,10 +100,8 @@ public class Main_B_G4_19238_스타트택시_정세린 {
 		else System.out.println(fuel);
 	}
 	
-	static boolean getNearPass() {
-		q.clear();
-		pq.clear();
-		resetVisited();
+	static boolean nearPass() {
+		reset();
 		q.offer(new Point(starti, startj, 0));
 		visited[starti][startj] = true;
 		
@@ -158,8 +155,7 @@ public class Main_B_G4_19238_스타트택시_정세린 {
 			Point cur = q.poll();
 			
 			if (cur.i == ei && cur.j == ej) {
-				q.clear();
-				resetVisited();
+				reset();
 				return cur.dist;
 			}
 			
@@ -173,13 +169,14 @@ public class Main_B_G4_19238_스타트택시_정세린 {
 				}
 			}
 		}
-		resetVisited();
-		q.clear();
+		reset();
 		return -1;
 	}
 	
-	// 방문 배열 초기화
-	static void resetVisited() {
+	// 초기화
+	static void reset() {
+		q.clear();
+		pq.clear();
 		for (int i = 0; i < visited.length; i++) {
 			Arrays.fill(visited[i], false);
 		}
