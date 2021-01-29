@@ -34,7 +34,7 @@
 
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
-  | [B_G4_19238_스타트택시](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%94%EB%AA%A8%EC%9D%98/ING_Main_B_G4_19238_%EC%8A%A4%ED%83%80%ED%8A%B8%ED%83%9D%EC%8B%9C_%EC%A0%95%EC%84%B8%EB%A6%B02.java) | https://www.acmicpc.net/problem/19238 |
+  | [B_G4_19238_스타트택시](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%94%EB%AA%A8%EC%9D%98/Main_B_G4_19238_%EC%8A%A4%ED%83%80%ED%8A%B8%ED%83%9D%EC%8B%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/19238 |
   | [B_S1_14888_연산자끼워넣기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%94%EB%AA%A8%EC%9D%98/Main_B_S1_14888_%EC%97%B0%EC%82%B0%EC%9E%90%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/14888 |
 
   
