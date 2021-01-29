@@ -1,3 +1,17 @@
+/*
+ * memory : 13172 KB
+ * time : 76 ms
+ * 
+ * solve time : 25min
+ * 
+ * 풀이
+ * dfs로 각 사칙 연산을 계산하며 풀이
+ * 
+ * 
+ * 
+ * 
+ */
+
 package algo_1월모의고사;
 
 import java.io.BufferedReader;
