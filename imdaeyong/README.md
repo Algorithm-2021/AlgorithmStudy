@@ -15,3 +15,10 @@ https://www.acmicpc.net/problem/10800
 https://www.acmicpc.net/problem/14502
 
 
+## 1월 4주차
+* [백준 S2_18352_특정거리의도시찾기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/1%EC%9B%94%204%EC%A3%BC/Main_B_S2_18352_%ED%8A%B9%EC%A0%95%EA%B1%B0%EB%A6%AC%EC%9D%98%EB%8F%84%EC%8B%9C%EC%B0%BE%EA%B8%B0.java) | 
+https://www.acmicpc.net/problem/18352
+
+* [백준 G5_2493_탑](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/1%EC%9B%94%204%EC%A3%BC/Main_B_G5_2493_%ED%83%91.java) | 
+https://www.acmicpc.net/problem/2493
+
