@@ -58,6 +58,9 @@
  
 
 ## 2월 1주
+### G4
+* [Main_B_G4_1922_네트워크연결](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월1주/Main_B_G4_1922_네트워크연결.java)
+> * 출처 : https://www.acmicpc.net/problem/1992
 ### S1
 * [Main_B_S1_1991_트리순회](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월1주/Main_B_S1_1991_트리순회.java)
 > * 출처 : https://www.acmicpc.net/problem/1991
