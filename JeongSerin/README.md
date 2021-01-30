@@ -32,6 +32,6 @@
   | 문제                                       | 출처                                   |
   | ---------------------------------------- | ------------------------------------ |
   | [B_S1_1068_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%941%EC%A3%BC/Main_B_S1_1068_%ED%8A%B8%EB%A6%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1068 |
-  | [B_S1_1991_트리순회]()                       | https://www.acmicpc.net/problem/1991 |
+  | [B_S1_1991_트리순회](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%941%EC%A3%BC/Main_B_S1_1991_%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java)                       | https://www.acmicpc.net/problem/1991 |
   | [B_G4_1922_네트워크연결]()                     | https://www.acmicpc.net/problem/1922 |
   | [B_S1_1389_케빈의베이컨6단계법칙]()                | https://www.acmicpc.net/problem/1389 |
