@@ -2,7 +2,7 @@
  * 11596KB
  * 80ms
  * 40m
- * 재귀로 기
+ * 재귀로 풀기
  * DLR, LDR, DLR
  */
 package BAEKJOON;
