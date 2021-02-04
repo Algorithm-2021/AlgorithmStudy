@@ -1,3 +1,17 @@
+/*
+ * memory : 11488 KB
+ * time : 76 ms
+ * 
+ * solve time : 1 Hour
+ * 
+ * 풀이
+ * 트리를 배열 구조로 구현하고 순회를 하며 string builder를 3개 선언하여 탐색 방법에 따라 각각 탐색 순서 저장
+ * 
+ * 
+ * 
+ * 
+ */
+
 package algo_2월1주;
 
 import java.io.BufferedReader;
