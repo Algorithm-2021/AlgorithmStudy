@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 메모리 :14624kb
  * 실행시간 : 132ms
  * 푸는시간 : 1H
- *
+ * 플루이드 와샬
  */
 public class Main_B_S1_1389_케빈베이컨의6단계법칙 {
 	static int map[][] = new int[101][101];
@@ -21,8 +21,8 @@ public class Main_B_S1_1389_케빈베이컨의6단계법칙 {
 		M = sc.nextInt();
 		for (int i = 0; i < N; i++)
 			for (int j = 0; j < N; j++)
-				if (i != j)
-					map[i][j] = 999999;
+				if (i != j)	map[i][j] = 999999;
+		
 		for (int j = 0; j < M; j++) {
 			int row = sc.nextInt() - 1;
 			int col = sc.nextInt() - 1;
