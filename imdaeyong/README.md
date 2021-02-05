@@ -22,3 +22,13 @@ https://www.acmicpc.net/problem/18352
 * [백준 G5_2493_탑](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/1%EC%9B%94%204%EC%A3%BC/Main_B_G5_2493_%ED%83%91.java) | 
 https://www.acmicpc.net/problem/2493
 
+## 2월 1주차
+* [백준 S1_1389_케빈베이컨의6단계법칙](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%201%EC%A3%BC/Main_B_S1_1389_%EC%BC%80%EB%B9%88%EB%B2%A0%EC%9D%B4%EC%BB%A8%EC%9D%986%EB%8B%A8%EA%B3%84%EB%B2%95%EC%B9%99.java) | 
+https://www.acmicpc.net/problem/1389
+
+* [백준 S1_1068_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%201%EC%A3%BC/Main_B_S1_1068_%ED%8A%B8%EB%A6%AC_2%ED%8A%B8.java) | 
+https://www.acmicpc.net/problem/1068
+
+
+* [백준 G4_1922_네트워크연결](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%201%EC%A3%BC/Main_B_G4_1922_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%97%B0%EA%B2%B0.java) | 
+https://www.acmicpc.net/problem/1922
