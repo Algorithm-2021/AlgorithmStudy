@@ -1,4 +1,3 @@
-package BAEKJOON;
 /*
  * 47004KB
  * 524ms
@@ -8,6 +7,8 @@ package BAEKJOON;
  * 2. 사이클이 생기지 않도록 가중치 작은 간선부터 선택
  * 사이클 여부? union find
  */
+package BAEKJOON;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -76,7 +77,7 @@ public class Main_B_G4_1922_네트워크연결 {
 	}
 	
 	static int findSet(int a) {
-		if (parents[a] < 0) return a;	// 부모 노드라면 부모의 번호리턴
+		if (parents[a] < 0) return a;	// 부모 노드라면 해당 노드의 번호리턴
 		return parents[a] = findSet(parents[a]);
 	}
 	
