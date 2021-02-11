@@ -68,10 +68,15 @@
 > * 출처 : https://www.acmicpc.net/problem/1991
 * [Main_B_S1_1068_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월1주/Main_B_S1_1068_트리.java)
 > * 출처 : https://www.acmicpc.net/problem/1068
+* [Main_B_S1_1389_케빈베이컨의6단계법칙](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월1주/Main_B_S1_1389_케빈베이컨의6단계법칙.java)
+> * 출처 : https://www.acmicpc.net/problem/1389
 
  
 
 ## 2월 2주
+### G4
+* [Main_B_G4_1987_알파벳](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월2주/Main_B_G4_1987_알파벳.java)
+> * 출처 : https://www.acmicpc.net/problem/1987
 ### G5
 * [Main_B_G5_1662_압축](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월2주/Main_B_G5_1662_압축.java)
 > * 출처 : https://www.acmicpc.net/problem/1662
