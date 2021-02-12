@@ -80,6 +80,8 @@
 ### G5
 * [Main_B_G5_1662_압축](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월2주/Main_B_G5_1662_압축.java)
 > * 출처 : https://www.acmicpc.net/problem/1662
+* [Main_B_G5_9019_DSLR](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월2주/Main_B_G5_9019_DSLR.java)
+> * 출처 : https://www.acmicpc.net/problem/9019
 ### S1
 * [Main_B_S1_15558_점프게임](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월2주/Main_B_S1_15558_점프게임.java)
 > * 출처 : https://www.acmicpc.net/problem/15558
