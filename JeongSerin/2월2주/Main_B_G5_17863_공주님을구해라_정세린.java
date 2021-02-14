@@ -1,43 +1,39 @@
 /*
- * bfs
- * 중간에 틀림.. 왤까
+ * 13332KB
+ * 124ms
+ * 2H
+ * bfs로 탐색.
+ * 일반경로와 소드를 주운 후 걸리는 시간(공주위치 - 소드위치) 계산 후 비교
  */
 package BAEKJOON;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class ING_Main_B_G5_17863_공주님을구해라_정세린 {
-	static int[][] map;
-	static boolean[][] visited;
-	static int N, M, T;
+public class Main_B_G5_17863_공주님을구해라_정세린 {
 	static int[][] dh = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 	
 	static class Point{	// 위치와 그람소지여부 저장
 		int i, j;
-		boolean gram = false;
 		
-		public Point(int i, int j, boolean gram) {
-			super();
+		public Point(int i, int j) {
 			this.i = i;
 			this.j = j;
-			this.gram = gram;
 		}
 	}
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
-		T = Integer.parseInt(st.nextToken());
-		map = new int[N][M];	// (0, 0)에서 출발 (N-1, M-1)도착
-		visited = new boolean[N][M];
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		int T = Integer.parseInt(st.nextToken());
+		int[][] map = new int[N][M];	// (0, 0)에서 출발 (N-1, M-1)도착
+		boolean[][] visited = new boolean[N][M];
 		
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
@@ -48,45 +44,45 @@ public class ING_Main_B_G5_17863_공주님을구해라_정세린 {
 		
 		int time = 0; // 공주를 구출하는데 걸리는 시간
 		Queue<Point> q = new LinkedList<Point>();
-		q.offer(new Point(0, 0, false)); // (0, 0)에서 출발
+		q.offer(new Point(0, 0)); // (0, 0)에서 출발
 		visited[0][0] = true;
-		boolean clear = false;
-		int gramTime = 0;
+		boolean clear = false; // 그람을 얻지 않고 갔을 때 성공여부
+		int gramTime = Integer.MAX_VALUE; // 그람을 주우고 걸리는 시간
 		
 		L:while(!q.isEmpty()) {
 			int size = q.size();
 			
-			while(size-- > 0) {
+			while (size-- > 0) {
 				Point cur = q.poll();
+				
 				if (cur.i == N-1 && cur.j == M-1) {	// 공주 구출 성공
 					clear = true;
 					break L;
 				}
 				
-				if (gramTime == 0 && cur.gram) {	// 그람 발견 후 소요시간
-					gramTime = time + (N-1) - cur.i + (M-1) - cur.j;
-				}
-				
 				for (int d = 0; d < 4; d++) {
 					int ni = cur.i + dh[d][0];
 					int nj = cur.j + dh[d][1];
-					if (ni < 0 || ni >= N || nj < 0 || nj >= M || visited[ni][nj]) continue;
-					if (map[ni][nj] == 1 && !cur.gram) continue; // 벽을 만났는데 그람이 없으면
+					if (ni < 0 || ni >= N || nj < 0 || nj >= M) continue;
+					if (visited[ni][nj]) continue;
+					if (map[ni][nj] == 1) continue; // 벽을 만남
 					
-					q.offer(new Point(ni, nj, (cur.gram || map[ni][nj] == 2)));	// 그람 이미 있음 || 그람 발견
+					if (map[ni][nj] == 2) // 다음 위치가 그람이면
+						gramTime = time + 1 + (N-1) - ni + (M-1) - nj;
+					
+					q.offer(new Point(ni, nj));
 					visited[ni][nj] = true;
 				}
 			}
 			time++;
-			if (time > T) {	// 시간초과
+			if (time > T) {
 				clear = false;
 				break L;
 			}
 		}
 		
-		if (gramTime <= T) clear = true;
-		
 		if (clear) System.out.println(Integer.min(time, gramTime));
+		else if (gramTime <= T) System.out.println(gramTime);
 		else System.out.println("Fail");
 	}
 }
