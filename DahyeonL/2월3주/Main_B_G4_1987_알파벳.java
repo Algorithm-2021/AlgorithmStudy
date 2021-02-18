@@ -1,6 +1,9 @@
-//푼시간 : 40분
-//12388	868	
-package algo_study_2021;
+
+/*
+ * 메모리 : 12388 KB
+ * 시간 : 868 ms
+ * 풀이 시간 : 40분
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
