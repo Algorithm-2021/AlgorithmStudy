@@ -32,3 +32,11 @@ https://www.acmicpc.net/problem/1068
 
 * [백준 G4_1922_네트워크연결](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%201%EC%A3%BC/Main_B_G4_1922_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%97%B0%EA%B2%B0.java) | 
 https://www.acmicpc.net/problem/1922
+
+## 2월 2주차
+* [백준 S1_15558_점프게임](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%202%EC%A3%BC/Main_B_S1_15558_%EC%A0%90%ED%94%84%EA%B2%8C%EC%9E%84.java) | 
+https://www.acmicpc.net/problem/15558
+* [백준 G5_17836_공주님을구해라](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%202%EC%A3%BC/Main_B_17836_G5_%EA%B3%B5%EC%A3%BC%EB%8B%98%EC%9D%84%EA%B5%AC%ED%95%B4%EB%9D%BC.java) | 
+https://www.acmicpc.net/problem/17836
+* [백준 G5_1662_압축](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%202%EC%A3%BC/Main_B_G5_1662_%EC%95%95%EC%B6%95.java) | 
+https://www.acmicpc.net/problem/1662
