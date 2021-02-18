@@ -1,4 +1,8 @@
-package algo_study_2021;
+/*
+ * 메모리 : 메모리초과
+ * 시간 : 시간초과
+ * 풀이 시간 : 4H~ing
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
