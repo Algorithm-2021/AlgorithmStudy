@@ -4,6 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/*
+ * 메모리 13752kb
+ * 시간 136ms
+ * 푸는시간 : 3H
+ */
+ 
 public class Main {
 	static int N,M,T;
 	static int[][] run_map;
