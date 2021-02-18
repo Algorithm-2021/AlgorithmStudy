@@ -1,6 +1,11 @@
-//푼시간 : 5시간
-//27356	224
-package algo_study_2021;
+/*
+ * -점프게임-
+ * BFS
+ * 메모리 : 27356 KB
+ * 시간 : 224 ms
+ * 풀이 시간 : 5H
+ */
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
