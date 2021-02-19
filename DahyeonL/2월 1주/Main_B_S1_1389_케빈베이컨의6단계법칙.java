@@ -1,4 +1,10 @@
-package algo_study_2021;
+/*
+ * -케빈베이컨-
+ *
+ * 메모리 : 11788 KB
+ * 시간 : 84 ms
+ * 풀이 시간 : 1H
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,8 +14,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main_B_S1_1389_케빈베이컨의6단계법칙 {
-// 11788	84
+public class Main_B_S1_1389_케빈베이컨의6단계법칙 { 	
 	static int N,M;
 	static boolean map[][],visited[];
 	public static void main(String[] args) throws IOException {
