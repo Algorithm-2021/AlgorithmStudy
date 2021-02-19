@@ -1,8 +1,9 @@
 /*
- * 메모리 : 메모리초과
- * 시간 : 시간초과
- * 풀이 시간 : 4H~ing
+ * 메모리 : 300204 kb
+ * 시간 : 8276 ms
+ * 풀이 시간 : 6H
  */
+package algo_study_2021;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +16,7 @@ import java.util.StringTokenizer;
 public class Main_B_G5_9019_DSLR {
 	static int T, start, result;
 	static int[] startS, resultR;
-
+	static boolean isvisit[];
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		T = Integer.parseInt(br.readLine());
@@ -27,6 +28,7 @@ public class Main_B_G5_9019_DSLR {
 			resultR = changeArrays(result);
 			node nodeA = new node(start,startS,"");
 			node nodeB = new node(result,resultR,"");
+			isvisit = new boolean[10000];
 			BFS(nodeA,nodeB);
 		}
 	}
@@ -36,12 +38,7 @@ public class Main_B_G5_9019_DSLR {
 		node temp;
 		A:while(!q.isEmpty()) {
 			temp = q.poll();
-			if(temp.a != changeNum(temp.A)) {
-				System.out.println("이런제에엔장");
-				System.out.println(temp.a);
-				System.out.println(Arrays.toString(temp.A));
-				break A;
-			}
+			isvisit[temp.a]=true;
 			if(temp.a==nodeB.a) {
 				System.out.println(temp.str);
 				break A;
@@ -53,7 +50,10 @@ public class Main_B_G5_9019_DSLR {
 				}else temp2.a = temp2.a*2;
 				temp2.A = changeArrays(temp2.a);
 				temp2.str=temp2.str+"D";
-				q.offer(temp2);
+				if(!isvisit[temp2.a]) {
+					q.offer(temp2);
+					isvisit[temp2.a]=true;
+				}
 				//S
 				temp2 = new node(temp.a,temp.A,temp.str);
 				if(temp2.a==0) {
@@ -63,7 +63,10 @@ public class Main_B_G5_9019_DSLR {
 				}
 				temp2.A = changeArrays(temp2.a);
 				temp2.str=temp2.str+"S";
-				q.offer(temp2);
+				if(!isvisit[temp2.a]) {
+					q.offer(temp2);
+					isvisit[temp2.a]=true;
+				}
 				//L
 				temp2 = new node(temp.a,temp.A,temp.str);
 				int num = temp2.A[0];
@@ -71,13 +74,12 @@ public class Main_B_G5_9019_DSLR {
 				temp2.A[1] = temp2.A[2];
 				temp2.A[2] = temp2.A[3];
 				temp2.A[3] = num;
-				System.out.println(Arrays.toString(temp2.A)+"바뀌는중");
 				temp2.a = changeNum(temp2.A);
-				System.out.println(temp2.a+"바뀌었따");
 				temp2.str=temp2.str+"L";
-				q.offer(temp2);
-				System.out.println(temp2.a+"여기니?????");
-				System.out.println(Arrays.toString(temp2.A)+"여기니?");
+				if(!isvisit[temp2.a]) {
+					q.offer(temp2);
+					isvisit[temp2.a]=true;
+				}
 				//R
 				temp2 = new node(temp.a,temp.A,temp.str);
 				int num2 = temp2.A[3];
@@ -87,11 +89,10 @@ public class Main_B_G5_9019_DSLR {
 				temp2.A[0] = num2;
 				temp2.a = changeNum(temp2.A);
 				temp2.str=temp2.str+"R";
-				q.offer(temp2);
-//				q.offer(L(new node(temp.a,temp.A,temp.str)));
-//				q.offer(S(new node(temp.a,temp.A,temp.str)));
-//				q.offer(D(new node(temp.a,temp.A,temp.str)));
-//				q.offer(R(new node(temp.a,temp.A,temp.str)));
+				if(!isvisit[temp2.a]) {
+					q.offer(temp2);
+					isvisit[temp2.a]=true;
+				}
 			}
 		}
 	}
@@ -155,7 +156,7 @@ public class Main_B_G5_9019_DSLR {
 		
 		public node(int a, int[] A, String str) {
 			this.a = a;
-			this.A = A;
+			this.A = A.clone();
 			this.str = str;
 		}
 		
