@@ -14,7 +14,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class ING_Main_B_G5_9019_DSLR_정세린 {
+public class Main_B_G5_9019_DSLR_정세린 {
 	static int min;
 	static int A, B;
 	static boolean[] visited = new boolean[10000];
