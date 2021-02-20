@@ -87,3 +87,14 @@
 ### S1
 * [Main_B_S1_15558_점프게임](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월2주/Main_B_S1_15558_점프게임.java)
 > * 출처 : https://www.acmicpc.net/problem/15558
+
+
+
+## 2월 3주
+
+### G5
+
+* [Main_B_G5_13549_숨바꼭질3](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월3주/Main_B_G5_13549_숨바꼭질3.java)
+
+> * 출처 : https://www.acmicpc.net/problem/13549
+
