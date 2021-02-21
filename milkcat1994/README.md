@@ -91,6 +91,9 @@
 
 
 ## 2월 3주
+### G4
+* [Main_B_G4_1774_우주신과의교감](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월3주/Main_B_G4_1774_우주신과의교감.java)
+> * 출처 : https://www.acmicpc.net/problem/1774
 ### G5
 * [Main_B_G5_13549_숨바꼭질3](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월3주/Main_B_G5_13549_숨바꼭질3.java)
 > * 출처 : https://www.acmicpc.net/problem/13549
