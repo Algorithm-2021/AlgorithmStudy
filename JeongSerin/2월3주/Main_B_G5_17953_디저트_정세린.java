@@ -2,9 +2,9 @@
  * dp
  * 106848KB
  * 524ms
+ * 1h 30m
  * 어제먹은거, 오늘 먹은거 골라가면서 memo에 저장.
  */
-
 package BAEKJOON;
 
 import java.io.BufferedReader;
