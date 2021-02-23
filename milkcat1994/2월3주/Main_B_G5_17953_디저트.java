@@ -4,9 +4,13 @@ import java.util.StringTokenizer;
 
 /*
  * -디저트-
+ * 1. 이전일자의 합에서 현재 일자의 만족도를 더해준다. (Line 38, 40)
+ * 2. 이때 이전 일자와 동일한 디저트일 경우 절반으로 계산한다. (Line 37 ~ 40)
+ * 3. 해당 일자에 현재 디저트를 먹었을 시 최대값을 memo해둔다. (Line 42)
  * 
- * 메모리 : 90872KB
- * 시간 : 608ms
+ * 
+ * 메모리 : 90796KB
+ * 시간 : 628ms
  * 풀이 시간 : 25M
  */
 
@@ -16,6 +20,7 @@ public class Main_B_G5_17953_디저트 {
 	
 	static int[][] satisfaction;
 	static int[][] memo;
+	
 	public static void main(String[] args) throws Exception {
 		init();
 		
@@ -25,17 +30,15 @@ public class Main_B_G5_17953_디저트 {
 	}
 	
 	static void solve() {
-		int sum, max;
+		int max;
 		for(int col=1; col<N; ++col) {
 			for(int row=0; row<M; ++row) {
-				max =0;
-				for(int ex=0; ex<M; ++ex) {
-					sum = memo[ex][col-1];
-					if(row==ex)
-						sum += Math.ceil(satisfaction[row][col]/2);
+				max = 0;
+				for(int exRow=0; exRow<M; ++exRow) {
+					if(row == exRow)
+						max = Math.max(max, memo[exRow][col-1] + satisfaction[row][col]/2);
 					else
-						sum += satisfaction[row][col];
-					max = Math.max(max, sum);
+						max = Math.max(max, memo[exRow][col-1] + satisfaction[row][col]);
 				}
 				memo[row][col] = max;
 			}
@@ -44,8 +47,8 @@ public class Main_B_G5_17953_디저트 {
 	
 	static int getMax() {
 		int max=0, end=N-1;
-		for(int col=0; col<M; ++col)
-			max = Math.max(max, memo[col][end]);
+		for(int row=0; row<M; ++row)
+			max = Math.max(max, memo[row][end]);
 		return max;
 	}
 	
