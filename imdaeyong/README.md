@@ -46,3 +46,9 @@ https://www.acmicpc.net/problem/1662
 https://www.acmicpc.net/problem/13549
 * [백준 G5_2688_줄어들지않아](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%204%EC%A3%BC/Main_B_G5_2688_%EC%A4%84%EC%96%B4%EB%93%A4%EC%A7%80%EC%95%8A%EC%95%84.java) | 
 https://www.acmicpc.net/problem/2688
+
+* [백준 G5_17953_디저트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/imdaeyong/2%EC%9B%94%204%EC%A3%BC/Main_B_G5_17953_%EB%94%94%EC%A0%80%ED%8A%B8.java) | 
+https://www.acmicpc.net/problem/17953
+
+
+https://github.com/Algorithm-2021/AlgorithmStudy/tree/master/imdaeyong/2%EC%9B%94%204%EC%A3%BC
