@@ -42,3 +42,11 @@
   | [B_G5_17953_디저트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%943%EC%A3%BC/Main_B_G5_17953_%EB%94%94%EC%A0%80%ED%8A%B8_%EC%A0%95%EC%84%B8%EB%A6%B0.java)| https://www.acmicpc.net/problem/17953 |
   | [B_G5_2688_줄어들지않아](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%943%EC%A3%BC/Main_B_G5_2688_%EC%A4%84%EC%96%B4%EB%93%A4%EC%A7%80%EC%95%8A%EC%95%84_%EC%A0%95%EC%84%B8%EB%A6%B0.java)| https://www.acmicpc.net/problem/2688 |
   | [B_G5_13549_숨바꼭질3](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%943%EC%A3%BC/Main_B_G5_13549_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%883_%EC%A0%95%EC%84%B8%EB%A6%B0.java)| https://www.acmicpc.net/problem/13549 |
+  
+
+- 모의 TEST
+
+  | 문제                                       | 출처                                    |
+  | ---------------------------------------- | ------------------------------------- |
+  | [B_G4_17142_연구소3](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%94%EB%AA%A8%EC%9D%98/Main_B_G4_17142_%EC%97%B0%EA%B5%AC%EC%86%8C3_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/17142 |
+  | [B_G5_3190_뱀](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%94%EB%AA%A8%EC%9D%98/Main_B_G5_3190_%EB%B1%80_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/3190 |
