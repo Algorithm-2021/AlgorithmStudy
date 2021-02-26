@@ -111,3 +111,10 @@
 ### G5
 * [Main_B_G5_3190_뱀](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월모의고사/Main_B_G5_3190_뱀.java)
 > * 출처 : https://www.acmicpc.net/problem/3190
+
+ 
+
+## 3월 1주
+### G4
+* [Main_B_G4_4485_녹색옷입은애가젤다지](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월1주/Main_B_G4_4485_녹색옷입은애가젤다지.java)
+> * 출처 : https://www.acmicpc.net/problem/4485
