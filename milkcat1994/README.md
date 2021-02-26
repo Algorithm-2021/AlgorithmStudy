@@ -101,3 +101,13 @@
 > * 출처 : https://www.acmicpc.net/problem/2688
 * [Main_B_G5_17953_디저트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월3주/Main_B_G5_17953_디저트.java)
 > * 출처 : https://www.acmicpc.net/problem/17953
+
+ 
+
+## 2월 모의고사
+### G4
+* [Main_B_G4_17142_연구소3](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월모의고사/Main_B_G4_17142_연구소3.java)
+> * 출처 : https://www.acmicpc.net/problem/17142
+### G5
+* [Main_B_G5_3190_뱀](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/2월모의고사/Main_B_G5_3190_뱀.java)
+> * 출처 : https://www.acmicpc.net/problem/3190
