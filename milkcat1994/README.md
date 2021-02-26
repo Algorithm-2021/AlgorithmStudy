@@ -49,10 +49,10 @@
 
 ## 1월 모의고사
 ### G4
-* [Main_B_G4_19238_스타트택시](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월5주/Main_B_G4_19238_스타트택시.java)
+* [Main_B_G4_19238_스타트택시](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월모의고사/Main_B_G4_19238_스타트택시.java)
 > * 출처 : https://www.acmicpc.net/problem/19238
 ### S1
-* [Main_B_S1_14888_연산자끼워넣기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월5주/Main_B_S1_14888_연산자끼워넣기.java)
+* [Main_B_S1_14888_연산자끼워넣기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/1월모의고사/Main_B_S1_14888_연산자끼워넣기.java)
 > * 출처 : https://www.acmicpc.net/problem/14888
 
  
