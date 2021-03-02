@@ -58,5 +58,5 @@
   | 문제                                       | 출처                                   |
   | ---------------------------------------- | ------------------------------------ |
   | [B_G4_4485_녹색옷입은애가젤다지](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%941%EC%A3%BC/Main_B_G4_4485_%EB%85%B9%EC%83%89%EC%98%B7%EC%9E%85%EC%9D%80%EC%95%A0%EA%B0%80%EC%A0%A4%EB%8B%A4%EC%A7%80_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1068 |
-  | [P_L3_43164_여행경로]() | https://programmers.co.kr/learn/courses/30/lessons/43164 |
+  | [P_L3_43164_여행경로](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%941%EC%A3%BC/P_L3_43164_%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/43164 |
   | [B_G5_1107_리모컨]() | https://www.acmicpc.net/problem/1107 |
