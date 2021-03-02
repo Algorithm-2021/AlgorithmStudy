@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public class P_L3_43164_여행경로_정세린 {
 	static class Solution {
-		String[][] t; // 전역 티켓
+		String[][] t; // 복사된 티켓
 		String minpath = "/"; // 경로
 		boolean[] visited; // 방문관리
 		int N; // 티켓 수
