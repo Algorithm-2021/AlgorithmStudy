@@ -1,6 +1,7 @@
 /*
  * 30160KB
  * 252ms
+ * 40m
  * bfs
  */
 package BAEKJOON;
