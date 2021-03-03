@@ -31,25 +31,22 @@ public class P_L3_43164_여행경로_정세린 {
 					Arrays.fill(visited, false);
 				}
 			}
-
 			answer = minpath.split(",");
-
+			
 			return answer;
 		} // end of solution
 
 		public void dfs(int i, int cnt, String path) {
 			visited[i] = true;
 			if (cnt == N) {
-				path = path + "," + t[i][1];
-				if (minpath.equals("/")) {
-					minpath = path;
-				} else if (path.compareTo(minpath) < 0) {
+				path = path + "," + t[i][1]; // 마지막 도착지
+				if (minpath.equals("/") || path.compareTo(minpath) < 0) {
 					minpath = path;
 				}
 			}
 
 			for (int k = 0; k < N; k++) {
-				if (t[i][1].equals(t[k][0]) && !visited[k]) { // 현재 티켓의 도착지 == 출발지
+				if (t[i][1].equals(t[k][0]) && !visited[k]) {  // 현재 티켓의 도착지 == 출발지
 					dfs(k, cnt + 1, path + "," + t[k][0]);
 				}
 			}
@@ -59,10 +56,10 @@ public class P_L3_43164_여행경로_정세린 {
 	} // end of Solution
 
 	public static void main(String[] args) {
-		String[][] tickets = { { "ICN", "JFK" }, { "HND", "IAD" }, { "JFK", "HND" } };
+		String[][] tickets = {{"ICN", "SFO"}, {"ICN", "ATL"}, {"SFO", "ATL"}, {"ATL", "ICN"}, {"ATL","SFO"}};
 		Solution s = new Solution();
 		String[] answer = s.solution(tickets);
-		System.out.println(Arrays.toString(answer));
+		System.out.println(Arrays.toString(answer)); // ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO"]
 	} // end of main
 
 }
