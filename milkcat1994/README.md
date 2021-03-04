@@ -120,6 +120,9 @@
 > * 출처 : https://www.acmicpc.net/problem/4485
 * [Main_B_G4_13502_단어퍼즐2](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월1주/Main_B_G4_13502_단어퍼즐2.java)
 > * 출처 : https://www.acmicpc.net/problem/13502
+### G5
+* [Main_B_G5_1107_리모컨](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월1주/Main_B_G5_1107_리모컨.java)
+> * 출처 : https://www.acmicpc.net/problem/1107
 ### L3
 * [Solution_P_L3_43164_여행경로](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월1주/Solution_P_L3_43164_여행경로.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/43164?language=java
