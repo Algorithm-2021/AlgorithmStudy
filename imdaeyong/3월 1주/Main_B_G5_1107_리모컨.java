@@ -7,7 +7,9 @@ import java.util.StringTokenizer;
 /**
  * 
  * @author 김대용
- * 런타임에러 (84%)
+ * 메모리 12040kb
+ * 시간 132ms
+ * 푸는시간 4H
  *
  */
 public class Main_B_G5_1107_리모컨 {
@@ -16,7 +18,11 @@ public class Main_B_G5_1107_리모컨 {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(in.readLine());
 		int M = Integer.parseInt(in.readLine());
-		StringTokenizer st = new StringTokenizer(in.readLine());
+		StringTokenizer st = null;
+		if(M!=0) { // M이 0이면... 받으면 안된다
+			st = new StringTokenizer(in.readLine());
+			
+		}
 		
 		for(int i=0; i<M; i++) {
 			int tmp = Integer.parseInt(st.nextToken());
