@@ -2,68 +2,90 @@ package DP;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /**
  * 
  * @author 김대용
- * 메모리 12040kb
- * 시간 132ms
- * 푸는시간 4H
+ * 메모리 17260kb
+ * 시간 180ms
+ * 푸는시간 3H
  *
  */
-public class Main_B_G5_1107_리모컨 {
-	static boolean broken[] = new boolean[10]; // 고장난 버튼 체크
+public class Main_B_G4_4485_녹색옷입은애가젤다지 {
+	static int N, T = 0;
+	static int[][] p; // 최소 비용 저장
+	static int[][] map; // 잃는 코인 저장
+
+	static StringBuilder sb = new StringBuilder();
+	static int[][] dirs = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
+
 	public static void main(String[] args) throws Exception {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(in.readLine());
-		int M = Integer.parseInt(in.readLine());
-		StringTokenizer st = null;
-		if(M!=0) { // M이 0이면... 받으면 안된다
-			st = new StringTokenizer(in.readLine());
-			
-		}
-		
-		for(int i=0; i<M; i++) {
-			int tmp = Integer.parseInt(st.nextToken());
-			broken[tmp] = true;
-		}
-		int near=Math.abs(N-100); // 가장 가까운 채널과의 거리
-		int channel=100; //가장 가까운 채널
-		int cnt=Math.abs(N-channel); // 눌러야할 버튼의 수
-		
-//		System.out.println("접근할수있는 가장 가까운 채널과의 거리"+near);
-//		System.out.println("100부터 시작한다면 눌러야할 버튼의 수"+cnt);
-		
-		for(int i=0; i<1000001; i++) { //1~500000까지 다 돌면서 제일 가까운 값을 찾는다.
-			if(works(i)) { // 버튼이 누를수 있는 버튼일떄
-//				System.out.println("눌렀어요"+i); 
-				
-				int current = Math.abs(N-i); //현재값에서 목표 채널까지의 거리
-				if(near>current) {
-					near=current; 
-					channel=i;
-					cnt=(int)(Math.log10(channel)+1); //정수 자릿수 구하기
-					if(cnt<0) cnt=1; //1자리일떄 -21억 되는거 방지
+
+		N = Integer.parseInt(in.readLine());
+		while(N!=0) {
+			T++;
+
+			p = new int[N][N];
+			map = new int[N][N];
+
+			for (int r = 0; r < N; r++) {
+				StringTokenizer st = new StringTokenizer(in.readLine());
+				for (int c = 0; c < N; c++) {
+					map[r][c] = Integer.parseInt(st.nextToken());
+					p[r][c] = Integer.MAX_VALUE;
 				}
 			}
-		}	
-		int result = near+cnt;
-		if(result>Math.abs(N-100)) { //버튼만 누르는게 더 빠를때..
-			System.out.println(Math.abs(N-100));
-		}else {
-			System.out.println(near+cnt);
-		}
+
+			bfs(T);
+
+			N = Integer.parseInt(in.readLine());
+		} 
+		System.out.println(sb);
 	}
 
-	private static boolean works(int i) {
-		if(i==0) { //0일떄 따로 처리해줘야함.
-			if(broken[0]) return false;
+	private static void bfs(int t) {
+		PriorityQueue<Node> pq = new PriorityQueue<Node>();
+		
+		p[0][0] = map[0][0];
+		pq.add(new Node(0, 0, p[0][0]));
+		
+		while (!pq.isEmpty()) {
+			Node pos = pq.poll();
+
+			int r = pos.r;
+			int c = pos.c;
+			int coin = pos.coin;
+
+			for (int[] dir : dirs) {
+				int nr = r + dir[0];
+				int nc = c + dir[1];
+
+				if (nr < 0 || nc < 0 || nr > N - 1 || nc > N - 1) continue;
+
+				if (p[nr][nc] > coin + map[nr][nc]) {
+					p[nr][nc] = coin + map[nr][nc];
+					pq.add(new Node(nr, nc, coin + map[nr][nc]));
+				}
+			}
 		}
-		while(i>0) { // 맨 뒷자리부터 누를수 있는 번호가 있는지 체크
-			if(broken[i%10]) return false; // 누를수 없는 번호일경우 false 리턴 
-			i/=10; // 다음자리 체크
+		System.out.println("Problem "+t+": "+ p[N-1][N-1]);
+	}
+	static class Node implements Comparable<Node> {
+		int r;
+		int c;
+		int coin;
+
+		public Node(int r, int c, int coin) {
+			this.r = r;
+			this.c = c;
+			this.coin = coin;
 		}
-		return true;
+
+		public int compareTo(Node o) {
+			return this.coin - o.coin;
+		}
 	}
 }
