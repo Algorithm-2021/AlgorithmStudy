@@ -1,5 +1,8 @@
 /*
- * 시간초과
+ * 67852KB
+ * 256ms
+ * 1D
+ * 완탐
  */
 package BAEKJOON;
 
@@ -16,35 +19,36 @@ public class Main_B_G5_1107_리모컨_정세린 {
 		int N = Integer.parseInt(br.readLine());
 		int M = Integer.parseInt(br.readLine());
 		isbreak = new boolean[10];
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		StringTokenizer st = null;
+		if (M > 0) st = new StringTokenizer(br.readLine(), " ");
 		for (int i = 0; i < M; i++) 
 			isbreak[Integer.parseInt(st.nextToken())] = true; // end of input
 		
-		int curup = N; // 현위치, +누르면서 올라갈 것
-		int curdown = N; // 현위치, -누르면서 내려갈 것
-		int cnt = 0;
+		boolean remote = false;
 		
-		while(true) { // 숫자 버튼 누르기
-			// 1. 목표채널에서 하나씩 올라가면서 확인
-			int up = makeChannel(curup++);
-			if (up > 0) {
-				cnt += up;
+		for (int i = 0; i < 10; i++) { // 누를수 있는 버튼이 없는 경우를 확인하기 위함
+			if (!isbreak[i]) {
+				remote = true;
 				break;
 			}
-			
-			// 2. 목표채널에서 하나씩 내려가면서 확인
-			if (curdown >= 0) { // 채널이 0보다 작을 수 없음
-				int down = makeChannel(curdown--);
-				if (down > 0) {
-					cnt += down;
-					break;
-				}
-			}
-			cnt++;
 		}
 		
-		int min = Integer.min(cnt, Math.abs(N - 100)); // 현재위치에서 단순 버튼 누르기
+		if (!remote) { // 누를 수 있는 버튼이 없는 경우
+			System.out.println(Math.abs(N - 100));
+			return;
+		}
 		
+		// 0 ~
+		int min = Integer.MAX_VALUE;
+		for (int i = 0; i <= 1000000; i++) {
+			int tmp = makeChannel(i);
+			if (tmp < 0) continue;
+			int cnt = Math.abs(i - N);
+			if (cnt > min) break;
+			cnt += makeChannel(i);
+			min = Integer.min(min, cnt);
+		}
+		min = Integer.min(min, Math.abs(N - 100)); // 현재위치에서 단순 버튼 누르기와 비교
 		System.out.println(min);
 		
 	} // end of main
@@ -56,7 +60,6 @@ public class Main_B_G5_1107_리모컨_정세린 {
 		while(cnt++ < digitNum) {
 			int tmp = num % 10; // 각 자리수
 			if (isbreak[tmp]) return -1; // 고장난 버튼이면
-			
 			num = num / 10;
 		}
 		return digitNum; // 만들 수 있음
