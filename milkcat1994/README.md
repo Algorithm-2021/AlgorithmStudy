@@ -126,3 +126,10 @@
 ### L3
 * [Solution_P_L3_43164_여행경로](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월1주/Solution_P_L3_43164_여행경로.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/43164?language=java
+
+ 
+
+## 3월 2주
+### G4
+* [Main_B_G4_16120_PPAP](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월1주/Main_B_G4_16120_PPAP.java)
+> * 출처 : https://www.acmicpc.net/problem/16120
