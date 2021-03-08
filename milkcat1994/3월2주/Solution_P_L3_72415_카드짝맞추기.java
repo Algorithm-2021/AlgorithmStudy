@@ -53,15 +53,15 @@ public class Solution_P_L3_72415_카드짝맞추기 {
 	
 	public int solution(int[][] board, int r, int c) {
 		minRes = Integer.MAX_VALUE;
-        cardCnt = countCard(board);
-        initCardPositionList(board);
-        
-        isSelected = new boolean[cardCnt+1];
-        
-        permutation(board, 0, r, c, 0);
-        
-        return minRes;
-    }
+		cardCnt = countCard(board);
+		initCardPositionList(board);
+		
+		isSelected = new boolean[cardCnt+1];
+		
+		permutation(board, 0, r, c, 0);
+		
+		return minRes;
+	}
 	
 	public int countCard(int[][] board) {
 		int cnt=0;
@@ -199,7 +199,6 @@ public class Solution_P_L3_72415_카드짝맞추기 {
 	
 	static class Card {
 		int num,r,c;
-		
 		Card(int num, int r, int c){
 			this.num = num;
 			this.r = r;
@@ -225,11 +224,11 @@ public class Solution_P_L3_72415_카드짝맞추기 {
 	}
 
 
-    public static void main(String[] args) {
-    	Solution_P_L3_72415_카드짝맞추기 sol = new Solution_P_L3_72415_카드짝맞추기();
-    	int[][] arr = {{1,0,0,3},{2,0,0,0},{0,0,0,2},{3,0,1,0}};
-    	int r=1, c=0;
-    	int answer = sol.solution(arr, r, c);
-    	System.out.println(answer);
-    }
+	public static void main(String[] args) {
+		Solution_P_L3_72415_카드짝맞추기 sol = new Solution_P_L3_72415_카드짝맞추기();
+		int[][] arr = {{1,0,0,3},{2,0,0,0},{0,0,0,2},{3,0,1,0}};
+		int r=1, c=0;
+		int answer = sol.solution(arr, r, c);
+		System.out.println(answer);
+	}
 }
