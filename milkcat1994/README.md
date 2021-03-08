@@ -136,3 +136,6 @@
 ### G4
 * [Main_B_G5_15809_전국시대](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월2주/Main_B_G5_15809_전국시대.java)
 > * 출처 : https://www.acmicpc.net/problem/15809
+### L3
+* [Solution_P_L3_72415_카드짝맞추기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월2주/Solution_P_L3_72415_카드짝맞추기.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/72415?language=java
