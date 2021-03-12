@@ -80,22 +80,22 @@ public class Main_B_G5_15809_전국시대_정세린 {
 	
 	// 합치기(동맹 또는 진 나라가 들어감)
 	static boolean unionSet(int win, int lose, int O) {
-		int aRoot = findSet(win);
-		int bRoot = findSet(lose);
-		if (aRoot == bRoot) return false;
+		int winRoot = findSet(win);
+		int loseRoot = findSet(lose);
+		if (winRoot == loseRoot) return false;
 		// union
-		parents[bRoot] = aRoot;
+		parents[loseRoot] = winRoot;
 		// 병력 합치기
 		// 동맹이면 둘이 그냥 합침
 		if (O == 1) {
-			A[aRoot] = A[aRoot] + A[bRoot]; // 병력 합치기
-			A[bRoot] = 0;
+			A[winRoot] = A[winRoot] + A[loseRoot]; // 병력 합치기
+			A[loseRoot] = 0;
 		}
 			
 		// 전쟁으로 합쳐지면 승리국 - 패배국 (둘이 같으면 둘다 병력이 0이됨)
 		if (O == 2) {
-			A[aRoot] = A[aRoot] - A[bRoot];
-			A[bRoot] = 0;
+			A[winRoot] = A[winRoot] - A[loseRoot];
+			A[loseRoot] = 0;
 		}
 		return true;
 	}
