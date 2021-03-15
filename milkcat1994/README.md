@@ -142,3 +142,10 @@
 ### L2
 * [Solution_P_L2_1829_카카오프렌즈컬러링북](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월2주/Solution_P_L2_1829_카카오프렌즈컬러링북.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/1829?language=java
+
+ 
+
+## 3월 3주
+### L2
+* [Solution_P_L2_64065_튜플](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월3주/Solution_P_L2_64065_튜플.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/64065
