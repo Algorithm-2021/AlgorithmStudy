@@ -1,28 +1,27 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /*
  * -튜플-
+ * 1. split과 sort를 이용하여 집합을 정렬한다.
+ * 2. set을 이용하여 새롭게 추가된 요소만 answer 배열에 추가시켜준다.
  * 
- * 테스트 1 〉	통과 (0.77ms, 52.1MB)
- * 테스트 2 〉	통과 (0.78ms, 54.4MB)
- * 테스트 3 〉	통과 (0.69ms, 52.7MB)
- * 테스트 4 〉	통과 (3.04ms, 51.9MB)
- * 테스트 5 〉	통과 (2.69ms, 53.2MB)
- * 테스트 6 〉	통과 (4.89ms, 51.8MB)
- * 테스트 7 〉	통과 (25.32ms, 56MB)
- * 테스트 8 〉	통과 (61.59ms, 61.9MB)
- * 테스트 9 〉	통과 (33.78ms, 56MB)
- * 테스트 10 〉	통과 (48.00ms, 60.1MB)
- * 테스트 11 〉	통과 (69.88ms, 64.4MB)
- * 테스트 12 〉	통과 (100.50ms, 69.6MB)
- * 테스트 13 〉	통과 (101.56ms, 69.3MB)
- * 테스트 14 〉	통과 (102.40ms, 69.6MB)
- * 테스트 15 〉	통과 (0.61ms, 53.2MB)
+ * 테스트 1 〉	통과 (0.89ms, 52.9MB)
+ * 테스트 2 〉	통과 (1.09ms, 53.1MB)
+ * 테스트 3 〉	통과 (0.94ms, 51.7MB)
+ * 테스트 4 〉	통과 (0.93ms, 52.5MB)
+ * 테스트 5 〉	통과 (5.25ms, 53MB)
+ * 테스트 6 〉	통과 (5.47ms, 53.1MB)
+ * 테스트 7 〉	통과 (27.65ms, 55.1MB)
+ * 테스트 8 〉	통과 (52.62ms, 59.5MB)
+ * 테스트 9 〉	통과 (41.41ms, 56.5MB)
+ * 테스트 10 〉	통과 (54.67ms, 59.7MB)
+ * 테스트 11 〉	통과 (71.12ms, 62.7MB)
+ * 테스트 12 〉	통과 (78.54ms, 69.2MB)
+ * 테스트 13 〉	통과 (93.29ms, 68.9MB)
+ * 테스트 14 〉	통과 (82.06ms, 69.4MB)
+ * 테스트 15 〉	통과 (2.86ms, 52.8MB)
  */
 
 //출처 : https://programmers.co.kr/learn/courses/30/lessons/64065
@@ -32,37 +31,23 @@ public class Solution_P_L2_64065_튜플 {
 		int[] answer;
 		String[] strArr = s.substring(2, s.length()-2).split("\\},\\{");
 
-		List<String[]> list = new ArrayList<>();
-		for(int i=0; i<strArr.length; ++i) {
-			list.add(strArr[i].split(","));
-		}
-		Collections.sort(list, new Comparator<String[]>() {
-			@Override
-			public int compare(String[] o1, String[] o2) {
-				return o1.length-o2.length;
-			}
+		Arrays.sort(strArr, (o1, o2) -> {
+			return o1.length() - o2.length();
 		});
+		answer = new int[strArr.length];
 		
 		Set<Integer> hs = new HashSet<>();
-		int strLength;
 		int ti;
-		List<Integer> answerList = new ArrayList<>();
-		for(String[] strings : list) {
-			strLength = strings.length;
-			for(int i=0; i<strLength; ++i) {
-				ti = Integer.parseInt(strings[i]);
-				if(!hs.contains(ti)) {
-					answerList.add(ti);
-					hs.add(ti);
+		int idx=0;
+		for(String strings : strArr) {
+			for(String num : strings.split(",")) {
+				ti = Integer.parseInt(num);
+				if(hs.add(ti)) {
+					answer[idx++] = ti;
 				}
 			}
 		}
-		
-		int answerListSize = answerList.size();
-		answer = new int[answerListSize];
-		for(int i=0; i<answerListSize; ++i) {
-			answer[i] = answerList.get(i);
-		}
+			
 		return answer;
 	}
 
