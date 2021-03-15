@@ -59,4 +59,7 @@
   | ---------------------------------------- | ------------------------------------ |
   | [B_G4_4485_녹색옷입은애가젤다지](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%941%EC%A3%BC/Main_B_G4_4485_%EB%85%B9%EC%83%89%EC%98%B7%EC%9E%85%EC%9D%80%EC%95%A0%EA%B0%80%EC%A0%A4%EB%8B%A4%EC%A7%80_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1068 |
   | [P_L3_43164_여행경로](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%941%EC%A3%BC/P_L3_43164_%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/43164 |
-  | [B_G5_1107_리모컨]() | https://www.acmicpc.net/problem/1107 |
+  | [B_G5_1107_리모컨](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%941%EC%A3%BC/Main_B_G5_1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1107 |
+  | [B_G5_15809_전국시대](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%942%EC%A3%BC/Main_B_G5_15809_%EC%A0%84%EA%B5%AD%EC%8B%9C%EB%8C%80_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/15809 |
+  | [B_G4_16120_PPAP](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%942%EC%A3%BC/Main_B_G4_16120_PPAP_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/16120 |
+  | [P_L2_1829_카카오프렌즈컬러링북](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%942%EC%A3%BC/Solution_P_L2_1829_%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88%EC%BB%AC%EB%9F%AC%EB%A7%81%EB%B6%81.java) | https://programmers.co.kr/learn/courses/30/lessons/1829 |
