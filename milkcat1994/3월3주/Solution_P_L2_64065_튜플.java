@@ -22,6 +22,7 @@ import java.util.Set;
  * 테스트 13 〉	통과 (93.29ms, 68.9MB)
  * 테스트 14 〉	통과 (82.06ms, 69.4MB)
  * 테스트 15 〉	통과 (2.86ms, 52.8MB)
+ * 풀이 시간 : 30M
  */
 
 //출처 : https://programmers.co.kr/learn/courses/30/lessons/64065
