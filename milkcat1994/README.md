@@ -146,6 +146,9 @@
  
 
 ## 3월 3주
+### L3
+* [Solution_P_L3_64064_불량사용자](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월3주/Solution_P_L3_64064_불량사용자.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/64064
 ### L2
 * [Solution_P_L2_64065_튜플](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월3주/Solution_P_L2_64065_튜플.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/64065
