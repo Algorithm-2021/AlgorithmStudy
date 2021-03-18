@@ -65,4 +65,4 @@
   | [P_L2_1829_카카오프렌즈컬러링북](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%942%EC%A3%BC/Solution_P_L2_1829_%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88%EC%BB%AC%EB%9F%AC%EB%A7%81%EB%B6%81.java) | https://programmers.co.kr/learn/courses/30/lessons/1829 |
   | [P_L2_42888_오픈채팅방](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%943%EC%A3%BC/Solution_P_L2_42888_%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42888 |
   | [P_L2_64065_튜플](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%943%EC%A3%BC/Solution_P_L2_64065_%ED%8A%9C%ED%94%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/64065 |
-  | [B_G5_2812_크게만들기]() | https://www.acmicpc.net/problem/2812 |
+  | [B_G5_2812_크게만들기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%943%EC%A3%BC/Main_B_G5_2812_%ED%81%AC%EA%B2%8C%EB%A7%8C%EB%93%A4%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/2812 |
