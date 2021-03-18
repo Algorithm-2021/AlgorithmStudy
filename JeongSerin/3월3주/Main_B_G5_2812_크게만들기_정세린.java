@@ -1,6 +1,6 @@
 /*
- * 64892KB
- * 648ms
+ * 24444KB
+ * 364ms
  * 40m
  * 스택사용
  */
@@ -49,15 +49,9 @@ public class Main_B_G5_2812_크게만들기_정세린 {
 			}
 		}
 		
-		// 아직 스택에 푸시되지 않은 숫자들 넣어둠
-		while (index < N) {
-			s.push(number.charAt(index));
-			index++;
-		}
-		
-		// 스택에 있는 숫자 나열
+		// 스택에 있는 숫자 + 아직 스택에 푸시되지 않은 숫자들
 		String ans = s.toString();
-		ans = ans.substring(1, ans.length() - 1).replace(", ", "");
+		ans = ans.substring(1, ans.length() - 1).replace(", ", "") + number.substring(index);
 		System.out.println(ans);
 	} // end of main
 
