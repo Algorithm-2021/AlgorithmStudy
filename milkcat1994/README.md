@@ -154,3 +154,10 @@
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/64065
 * [Solution_P_L2_42888_오픈채팅방](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월3주/Solution_P_L2_42888_오픈채팅방.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42888
+
+ 
+
+## 3월 4주
+### L2
+* [Solution_P_L2_42626_더맵게](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/3월4주/Solution_P_L2_42626_더맵게.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42626
