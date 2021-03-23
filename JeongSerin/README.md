@@ -67,6 +67,6 @@
   | [P_L2_64065_튜플](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%943%EC%A3%BC/Solution_P_L2_64065_%ED%8A%9C%ED%94%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/64065 |
   | [B_G5_2812_크게만들기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%943%EC%A3%BC/Main_B_G5_2812_%ED%81%AC%EA%B2%8C%EB%A7%8C%EB%93%A4%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/2812 |
   | [P_L2_42626_더맵게](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%944%EC%A3%BC/Solution_P_L2_42626_%EB%8D%94%EB%A7%B5%EA%B2%8C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42626 |
-  | [P_L3_64062_징검다리건너기]() | https://programmers.co.kr/learn/courses/30/lessons/64062 |
+  | [P_L3_64062_징검다리건너기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%944%EC%A3%BC/Solution_P_L2_64062_%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC%EA%B1%B4%EB%84%88%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/64062 |
   | [B_G4_1043_거짓말](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%944%EC%A3%BC/Main_B_G4_1043_%EA%B1%B0%EC%A7%93%EB%A7%90_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1043 |
   | []() |  |
