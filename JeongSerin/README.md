@@ -17,7 +17,7 @@
   | [B_G5_2493\_탑](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%944%EC%A3%BC/Main_B_G5_2493_%ED%83%91_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/2493  |
   | [B_G4_5427\_불](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%944%EC%A3%BC/Main_B_G4_5427_%EB%B6%88_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/5427  |
   | [B_S2_18352_특정거리의도시찾기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/1%EC%9B%944%EC%A3%BC/Main_B_S2_18352_%ED%8A%B9%EC%A0%95%EA%B1%B0%EB%A6%AC%EC%9D%98%EB%8F%84%EC%8B%9C%EC%B0%BE%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/18352 |
-
+  
 - 모의 TEST
 
   | 문제                                       | 출처                                    |
@@ -43,7 +43,6 @@
   | [B_G5_2688_줄어들지않아](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%943%EC%A3%BC/Main_B_G5_2688_%EC%A4%84%EC%96%B4%EB%93%A4%EC%A7%80%EC%95%8A%EC%95%84_%EC%A0%95%EC%84%B8%EB%A6%B0.java)| https://www.acmicpc.net/problem/2688 |
   | [B_G5_13549_숨바꼭질3](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/2%EC%9B%943%EC%A3%BC/Main_B_G5_13549_%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%883_%EC%A0%95%EC%84%B8%EB%A6%B0.java)| https://www.acmicpc.net/problem/13549 |
   
-
 - 모의 TEST
 
   | 문제                                       | 출처                                    |
@@ -70,11 +69,19 @@
   | [P_L3_64062_징검다리건너기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%944%EC%A3%BC/Solution_P_L2_64062_%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC%EA%B1%B4%EB%84%88%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/64062 |
   | [B_G4_1043_거짓말](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%944%EC%A3%BC/Main_B_G4_1043_%EA%B1%B0%EC%A7%93%EB%A7%90_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1043 |
   
-
 - 모의 TEST
 
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
   | [B_G4_17140_이차원배열과연산](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%94%EB%AA%A8%EC%9D%98/Main_B_G4_17140_%EC%9D%B4%EC%B0%A8%EC%9B%90%EB%B0%B0%EC%97%B4%EA%B3%BC%EC%97%B0%EC%82%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/17140 |
   | [B_G5_15686_치킨배달](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%94%EB%AA%A8%EC%9D%98/Main_G5_15686_%EC%B9%98%ED%82%A8%EB%B0%B0%EB%8B%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/15686 |
+  | [P_L2_67257_수식최대화]() | https://programmers.co.kr/learn/courses/30/lessons/67257 |
+  | [P_L3_43163_단어변환]() | https://programmers.co.kr/learn/courses/30/lessons/43163 |
+  | [B_G5_21278_호석이두마리치킨](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/3%EC%9B%945%EC%A3%BC/Main_B_G5_21278_%ED%98%B8%EC%84%9D%EC%9D%B4%EB%91%90%EB%A7%88%EB%A6%AC%EC%B9%98%ED%82%A8_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/21278 |
+### 4월
 
+- 1~4주
+
+  | 문제                                       | 출처                                   |
+  | ---------------------------------------- | ------------------------------------ |
+  | []() |  |
