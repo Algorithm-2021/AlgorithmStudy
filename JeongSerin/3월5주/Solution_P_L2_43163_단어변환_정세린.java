@@ -1,11 +1,11 @@
 /*
-테스트 1 〉	통과 (11.37ms, 52.8MB)
-테스트 2 〉	통과 (10.81ms, 53.3MB)
-테스트 3 〉	통과 (10.79ms, 53.2MB)
-테스트 4 〉	통과 (11.28ms, 52.3MB)
-테스트 5 〉	통과 (0.02ms, 51.8MB)
+테스트 1 〉	통과 (0.03ms, 52.6MB)
+테스트 2 〉	통과 (0.07ms, 52.6MB)
+테스트 3 〉	통과 (0.18ms, 52.7MB)
+테스트 4 〉	통과 (0.03ms, 52.3MB)
+테스트 5 〉	통과 (0.02ms, 51.5MB)
 1H
-dfs
+dfs, 
  */
 package PROGRAMMERS;
 
@@ -32,14 +32,14 @@ public class Solution_P_L2_43163_단어변환_정세린 {
 
 			visited = new boolean[len + 1];
 			visited[len] = true;
-			dfs(beginIdx, targetIdx, 0, "");
+			dfs(beginIdx, targetIdx, 0);
 	
 			if (min == Integer.MAX_VALUE) return 0;
 			answer = min;
 			return answer;
 		} // end of solution()
 	
-		void dfs(int curIdx, int targetIdx, int cnt, String str) {
+		void dfs(int curIdx, int targetIdx, int cnt) {
 			if (curIdx == targetIdx) { // 종료조건
 				min = Integer.min(min, cnt);
 				return;
@@ -49,7 +49,7 @@ public class Solution_P_L2_43163_단어변환_정세린 {
 				if (nextIdx == curIdx || visited[nextIdx]) continue;
 				if (countDiff(wordsCopy[curIdx], wordsCopy[nextIdx]) == 1) {
 					visited[nextIdx] = true;
-					dfs(nextIdx, targetIdx, cnt + 1, str + ", " + wordsCopy[curIdx]);
+					dfs(nextIdx, targetIdx, cnt + 1);
 					visited[nextIdx] = false;
 				}
 			}
