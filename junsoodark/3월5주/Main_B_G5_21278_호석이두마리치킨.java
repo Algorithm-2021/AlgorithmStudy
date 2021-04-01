@@ -1,6 +1,6 @@
 /*
- * memory : 27344 KB
- * time : 448 ms
+ * memory : 27380 KB
+ * time : 336 ms
  * 
  * solve time : 1 Hour 0 Minute
  * 
@@ -73,6 +73,9 @@ public class Main_B_G5_21278_호석이두마리치킨 {
 						q.offer(l);
 					}
 				}
+			}
+			if(min<result) {
+				return result;
 			}
 			cnt++;
 		}
