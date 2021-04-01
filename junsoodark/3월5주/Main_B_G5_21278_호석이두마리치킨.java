@@ -20,6 +20,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+//출처 : https://www.acmicpc.net/problem/21278
 public class Main_B_G5_21278_호석이두마리치킨 {
 	static int N, M;
 	static int sN = 101, bN = 101, min = Integer.MAX_VALUE;
