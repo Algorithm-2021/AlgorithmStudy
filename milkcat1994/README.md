@@ -194,6 +194,9 @@
  
 
 ## 4월 1주
+### L3
+* [Solution_P_L3_43238_입국심사](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월1주/Solution_P_L3_43238_입국심사.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/43238
 ### L2
 * [Solution_P_L2_17686_파일명정렬](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월1주/Solution_P_L2_17686_파일명정렬.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/17686
