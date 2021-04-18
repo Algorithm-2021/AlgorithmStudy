@@ -1,3 +1,19 @@
+/*
+ * memory : 108928 KB
+ * time : 420 ms
+ * 
+ * solve time : 2 Hour 0 Minute
+ * 
+ * 풀이
+ * 시뮬레이션
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+// 출처 : https://www.acmicpc.net/problem/20056
 package algo_4월2주;
 
 import java.io.BufferedReader;
