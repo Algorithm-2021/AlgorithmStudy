@@ -64,7 +64,7 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 				arr[tmp.r][tmp.c].totDir += tmp.dir % 2;
 				arr[tmp.r][tmp.c].totMass += tmp.mass;
 				arr[tmp.r][tmp.c].totSpeed += tmp.speed;
-				arr[tmp.r][tmp.c].oneSpeed += tmp.speed;
+				arr[tmp.r][tmp.c].oneDir += tmp.dir;
 			}
 			for (int j = 0; j < N; j++) {
 				for (int k = 0; k < N; k++) {
@@ -85,7 +85,7 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 							q.add(in);
 						}
 					} else if (arr[j][k].cnt == 1) {
-						fireBall in = new fireBall(j, k, arr[j][k].totMass, arr[j][k].oneSpeed, arr[j][k].totSpeed);
+						fireBall in = new fireBall(j, k, arr[j][k].totMass, arr[j][k].oneDir, arr[j][k].totSpeed);
 						q.add(in);
 					}
 				}
@@ -106,14 +106,14 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 					// 아니면 1, 3, 5, 7로 퍼진다.
 		int cnt; // 도착한 파이어볼의 갯수
 		int totSpeed; // 도착한 파이어볼의 속력의 총합
-		int oneSpeed;
+		int oneDir;
 
-		public box(int totMass, int totDir, int cnt, int totSpeed, int oneSpeed) {
+		public box(int totMass, int totDir, int cnt, int totSpeed, int oneDir) {
 			this.totMass = totMass;
 			this.totDir = totDir;
 			this.cnt = cnt;
 			this.totSpeed = totSpeed;
-			this.oneSpeed = oneSpeed;
+			this.oneDir = oneDir;
 		}
 	}
 
