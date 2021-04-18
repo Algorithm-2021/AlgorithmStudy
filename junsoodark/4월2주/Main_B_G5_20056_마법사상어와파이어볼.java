@@ -17,7 +17,6 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 		K = Integer.parseInt(st.nextToken());
-		int sumTmp = 0;
 		box arr[][] = new box[N][N];
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -30,10 +29,9 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 //			System.out.println(r + " " + c + " " + mass + " " + speed + " " + dir);
 		}
 		for (int i = 0; i < K; i++) {
-			sumTmp = 0;
 			for (int j = 0; j < N; j++) {
 				for (int k = 0; k < N; k++) {
-					arr[j][k] = new box(0, 0, 0, 0);
+					arr[j][k] = new box(0, 0, 0, 0, 0);
 				}
 			}
 			while (!q.isEmpty()) {
@@ -66,17 +64,16 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 				arr[tmp.r][tmp.c].totDir += tmp.dir % 2;
 				arr[tmp.r][tmp.c].totMass += tmp.mass;
 				arr[tmp.r][tmp.c].totSpeed += tmp.speed;
+				arr[tmp.r][tmp.c].oneSpeed += tmp.speed;
 			}
-			int cnt = 0;
 			for (int j = 0; j < N; j++) {
 				for (int k = 0; k < N; k++) {
 					if (arr[j][k].cnt >= 2) {
-						cnt++;
-						int tmpMass = arr[j][k].totMass / 5;
-						if (tmpMass == 0) {
+						if (arr[j][k].totMass < 5) {
 							continue;
 						}
-						int tmpSpeed = arr[j][k].totSpeed / cnt;
+						int tmpMass = arr[j][k].totMass / 5;
+						int tmpSpeed = arr[j][k].totSpeed / arr[j][k].cnt;
 						int tmpDir = 0;
 						if (arr[j][k].totDir == 0 || arr[j][k].totDir == arr[j][k].cnt) {
 							tmpDir = 0;
@@ -84,12 +81,12 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 							tmpDir = 1;
 						}
 						for (int l = 0; l < 4; l++) {
-							fireBall in = new fireBall(j, k, tmpMass, 2 * l + tmpDir, tmpSpeed);
+							fireBall in = new fireBall(j, k, tmpMass, (2 * l) + tmpDir, tmpSpeed);
 							q.add(in);
 						}
-					}
-					if (arr[j][k].cnt == 1) {
-						sumTmp += arr[j][k].totMass;
+					} else if (arr[j][k].cnt == 1) {
+						fireBall in = new fireBall(j, k, arr[j][k].totMass, arr[j][k].oneSpeed, arr[j][k].totSpeed);
+						q.add(in);
 					}
 				}
 			}
@@ -100,7 +97,7 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 			fireBall out = q.poll();
 			answer += out.mass;
 		}
-		System.out.println(answer + sumTmp);
+		System.out.println(answer);
 	}
 
 	public static class box {
@@ -109,12 +106,14 @@ public class Main_B_G5_20056_마법사상어와파이어볼 {
 					// 아니면 1, 3, 5, 7로 퍼진다.
 		int cnt; // 도착한 파이어볼의 갯수
 		int totSpeed; // 도착한 파이어볼의 속력의 총합
+		int oneSpeed;
 
-		public box(int totMass, int totDir, int cnt, int totSpeed) {
+		public box(int totMass, int totDir, int cnt, int totSpeed, int oneSpeed) {
 			this.totMass = totMass;
 			this.totDir = totDir;
 			this.cnt = cnt;
 			this.totSpeed = totSpeed;
+			this.oneSpeed = oneSpeed;
 		}
 	}
 
