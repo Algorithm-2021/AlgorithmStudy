@@ -31,7 +31,6 @@ public class Main_B_G4_4803_트리_정세린 {
 				st = new StringTokenizer(br.readLine(), " ");
 				int a = Integer.parseInt(st.nextToken());
 				int b = Integer.parseInt(st.nextToken());
-//				if (a == b) continue;
 				unionSet(a, b);
 			}
 			int cnt = 0;
