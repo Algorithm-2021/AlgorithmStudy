@@ -1,5 +1,9 @@
 /*
- * 100%에서 틀림 욜라짱남
+ * 52956KB
+ * 368ms
+ * 3H
+ * UnionFind
+ * 사이클이생기면 0번노드와 연결해서 빼둠.
  */
 package BAEKJOON;
 
@@ -63,15 +67,16 @@ public class Main_B_G4_4803_트리_정세린 {
 	}
 	
 	static int findSet(int a) {
-		if (parents[a] < 0) return a;
+		if (parents[a] < 0 || a == 0) return a; // 사이클이거나 루트라면 (루트만 확인하면 사이클만있을경우 스택오버플로가능성)
 		return parents[a] = findSet(parents[a]);
 	}
 	
 	static void unionSet(int a, int b) {
 		int aRoot = findSet(a);
 		int bRoot = findSet(b);
-		if (aRoot == bRoot) { // 사이클이 생김 (트리가 아님)
-			parents[aRoot] = -2; // 트리가 아닌것 -2로 표시
+		if (aRoot == bRoot || aRoot == 0 || bRoot == 0) { // 사이클이 생김 (트리가 아님)
+			parents[aRoot] = 0; // 0번노드와 연결
+			parents[bRoot] = 0;
 			return;
 		}
 		if (aRoot < bRoot) parents[bRoot] = aRoot;
