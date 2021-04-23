@@ -226,3 +226,10 @@
 ### G4
 * [Main_B_G4_4803_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월3주/Main_B_G4_4803_트리.java)
 > * 출처 : https://www.acmicpc.net/problem/4803
+
+ 
+
+## 4월 4주
+### L2
+* [Solution_P_L2_12899_124나라의숫자](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월4주/Solution_P_L2_12899_124나라의숫자.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12889
