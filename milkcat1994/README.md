@@ -230,6 +230,9 @@
  
 
 ## 4월 4주
+### L3
+* [SQL_59043_있었는데요없었습니다](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월4주/SQL_59043_있었는데요없었습니다.txt)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/59043
 ### L2
 * [Solution_P_L2_12899_124나라의숫자](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월4주/Solution_P_L2_12899_124나라의숫자.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12889
