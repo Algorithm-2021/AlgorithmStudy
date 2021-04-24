@@ -81,7 +81,7 @@
 
 ### 4월
 
-- 1~4주
+- 1~5주
 
   | 문제                                       | 출처                                   |
   | ---------------------------------------- | ------------------------------------ |
@@ -90,9 +90,14 @@
   | [P_L2_17686_파일명정렬](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%941%EC%A3%BC/Solution_P_L2_17686_%ED%8C%8C%EC%9D%BC%EB%AA%85%EC%A0%95%EB%A0%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/17686 |
   | [P_L3_12938_최고의 집합](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%942%EC%A3%BC/Solution_P_L3_12938_%EC%B5%9C%EA%B3%A0%EC%9D%98%EC%A7%91%ED%95%A9_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12938 |
   | [P_L2_12951_JadenCase문자열만들기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%942%EC%A3%BC/Solution_P_L2_12951_JadenCase%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%8C%EB%93%A4%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12951 |
-  | [B_G5_20056_마법사상어와파이어볼]() | https://www.acmicpc.net/problem/20056 |
+  | [B_G5_20056_마법사상어와파이어볼](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%942%EC%A3%BC/Main_B_G5_20056_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B3%BC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/20056 |
   | [P_L2_76502_괄호회전하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%943%EC%A3%BC/Solution_P_L2_76502_%EA%B4%84%ED%98%B8%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/76502 |
   | [P_L3_49191_순위](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%943%EC%A3%BC/Solution_P_L3_49191_%EC%88%9C%EC%9C%84_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/49191 |
-  | [B_G4_4803_트리]() | https://www.acmicpc.net/problem/4803 |
+  | [B_G4_4803_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%943%EC%A3%BC/Main_B_G4_4803_%ED%8A%B8%EB%A6%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/4803 |
+  | [P_L2_12899_124나라의숫자]() | https://programmers.co.kr/learn/courses/30/lessons/12899 |
+  | [P_L3_42890_후보키]() | https://programmers.co.kr/learn/courses/30/lessons/42890 |
+  | [P_L3_59043_있었는데요없었습니다]() | https://programmers.co.kr/learn/courses/30/lessons/59043 |
+  | []() |  |
+  | []() |  |
   | []() |  |
   | []() |  |
