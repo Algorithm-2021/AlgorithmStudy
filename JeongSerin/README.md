@@ -96,7 +96,7 @@
   | [B_G4_4803_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%943%EC%A3%BC/Main_B_G4_4803_%ED%8A%B8%EB%A6%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/4803 |
   | [P_L2_12899_124나라의숫자](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%944%EC%A3%BC/Solution_P_L2_12899_124%EB%82%98%EB%9D%BC%EC%9D%98%EC%88%AB%EC%9E%90_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12899 |
   | [P_L3_42890_후보키]() | https://programmers.co.kr/learn/courses/30/lessons/42890 |
-  | [P_L3_59043_있었는데요없었습니다]() | https://programmers.co.kr/learn/courses/30/lessons/59043 |
+  | [P_L3_59043_있었는데요없었습니다](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%944%EC%A3%BC/SQL_P_L3_59043_%EC%9E%88%EC%97%88%EB%8A%94%EB%8D%B0%EC%9A%94%EC%97%86%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4.sql) | https://programmers.co.kr/learn/courses/30/lessons/59043 |
   | []() |  |
   | []() |  |
   | []() |  |
