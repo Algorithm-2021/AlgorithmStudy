@@ -1,14 +1,15 @@
 /*
- * 효율성
+ * 2H
+ * StringBuilder쓰기
  */
 package PROGRAMMERS;
 
 public class Solution_P_L2_12899_124나라의숫자_정세린 {
 	static class Solution {
-		int[] num = { 4, 1, 2 };
+		int[] num = {4, 1, 2};
 
 		public String solution(int n) {
-			String answer = "";
+			StringBuilder sb = new StringBuilder();
 
 			int k = n;
 			int remain = 0;
@@ -17,10 +18,10 @@ public class Solution_P_L2_12899_124나라의숫자_정세린 {
 				remain = k % 3;
 				k = k / 3;
 				if (remain == 0) k--;
-				answer = num[remain] + answer;
+				sb.insert(0, num[remain]);
 			}
 
-			return answer;
+			return sb.toString();
 		}
 	}
 
