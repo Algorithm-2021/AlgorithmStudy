@@ -5,7 +5,6 @@
 테스트 19 〉	통과 (4.21ms, 53.3MB)
 테스트 20 〉	통과 (3.63ms, 53.9MB)
  * 40m
- * 완탐 
  */
 package PROGRAMMERS;
 
