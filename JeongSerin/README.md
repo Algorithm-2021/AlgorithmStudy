@@ -102,6 +102,8 @@
 
 - 1~4주
 
+  | 문제                                       | 출처                                    |
+  | ---------------------------------------- | ------------------------------------- |
   | [B_G4_1484_다이어트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%941%EC%A3%BC/Main_B_G4_1484_%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1484 |
   | []() |  |
   | []() |  |
