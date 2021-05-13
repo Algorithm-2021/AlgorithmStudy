@@ -105,6 +105,9 @@
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
   | [B_G4_1484_다이어트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%941%EC%A3%BC/Main_B_G4_1484_%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1484 |
-  | []() |  |
+  | [P_L2_62048_멀쩡한사각형]() | https://programmers.co.kr/learn/courses/30/lessons/62048 |
   | [P_L2_17680_캐시](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%941%EC%A3%BC/Solution_P_L2_17680_%EC%BA%90%EC%8B%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/17680 |
+  | [P_L2_77484_로또최고순위와최저순위]() | https://programmers.co.kr/learn/courses/30/lessons/77484 |
+  | [P_L1_77485_행렬테두리회전하기]() | https://programmers.co.kr/learn/courses/30/lessons/77485 |
+  | [P_L3_77486_다단계칫솔판매]() | https://programmers.co.kr/learn/courses/30/lessons/77486 |
   | []() |  |
