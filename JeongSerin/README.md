@@ -108,6 +108,6 @@
   | [P_L2_62048_멀쩡한사각형]() | https://programmers.co.kr/learn/courses/30/lessons/62048 |
   | [P_L2_17680_캐시](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%941%EC%A3%BC/Solution_P_L2_17680_%EC%BA%90%EC%8B%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/17680 |
   | [P_L2_77484_로또최고순위와최저순위](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%942%EC%A3%BC/Solution_P_L2_77484_%EB%A1%9C%EB%98%90%EC%B5%9C%EA%B3%A0%EC%88%9C%EC%9C%84%EC%99%80%EC%B5%9C%EC%A0%80%EC%88%9C%EC%9C%84_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/77484 |
-  | [P_L1_77485_행렬테두리회전하기]() | https://programmers.co.kr/learn/courses/30/lessons/77485 |
+  | [P_L1_77485_행렬테두리회전하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%942%EC%A3%BC/Solution_P_L1_77485_%ED%96%89%EB%A0%AC%ED%85%8C%EB%91%90%EB%A6%AC%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/77485 |
   | [P_L3_77486_다단계칫솔판매]() | https://programmers.co.kr/learn/courses/30/lessons/77486 |
   | []() |  |
