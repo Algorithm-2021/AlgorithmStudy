@@ -239,10 +239,23 @@
 
  
 
-## 4월 4주
+## 5월 1주
 ### G4
 * [Main_B_G4_1484_다이어트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월1주/Main_B_G4_1484_다이어트.java)
 > * 출처 : https://www.acmicpc.net/problem/1484
 ### L2
 * [Solution_P_L2_62048_멀쩡한사각형](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월1주/Solution_P_L2_62048_멀쩡한사각형.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/62048
+
+ 
+
+## 5월 2주
+### L1
+* [Solution_P_L1_77484_로또의최고순위와최저순위](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월2주/Solution_P_L1_77484_로또의최고순위와최저순위.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/77484
+### L2
+* [Solution_P_L2_77485_행렬테두리회전하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월2주/Solution_P_L2_77485_행렬테두리회전하기.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/77485
+### L3
+* [Solution_P_L3_77486_다단계칫솔판매](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월2주/Solution_P_L3_77486_다단계칫솔판매.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/77486
