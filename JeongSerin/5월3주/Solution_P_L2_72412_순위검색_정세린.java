@@ -1,9 +1,9 @@
 /*
-테스트 22 〉	통과 (18.55ms, 53.2MB)
-테스트 23 〉	통과 (14.54ms, 52.9MB)
-테스트 24 〉	통과 (2.76ms, 52.8MB)
-테스트 25 〉	통과 (2.53ms, 52.7MB)
-테스트 26 〉	통과 (2.11ms, 51.9MB)
+테스트 22 〉	통과 (19.35ms, 53.5MB)
+테스트 23 〉	통과 (18.27ms, 53.3MB)
+테스트 24 〉	통과 (4.59ms, 53.6MB)
+테스트 25 〉	통과 (7.72ms, 52.7MB)
+테스트 26 〉	통과 (2.56ms, 53MB)
  * 30m
  * https://programmers.co.kr/learn/courses/30/lessons/72410
  */
@@ -15,7 +15,7 @@ public class Solution_P_L2_72412_순위검색_정세린 {
 			String answer = "";
 			answer = new_id.toLowerCase(); // 1
 			answer = answer.replaceAll("[^a-z 0-9 \\-\\_\\.]", ""); // 2
-			answer = answer.replaceAll("(\\.)\\1+", "."); // 3
+			answer = answer.replaceAll("\\.+", "."); // 3
 			if (answer.startsWith(".")) answer = answer.substring(1);
 			if (answer.endsWith(".")) answer = answer.substring(0, answer.length() - 1); // 4
 			if (answer.length() == 0) answer = "a"; // 5
@@ -26,7 +26,6 @@ public class Solution_P_L2_72412_순위검색_정세린 {
 				while (len++ <= 2)
 					answer += answer.charAt(answer.length() - 1);
 			} // 7
-
 			return answer;
 		}
 	}
