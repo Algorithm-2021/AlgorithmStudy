@@ -9,7 +9,7 @@
  */
 package PROGRAMMERS;
 
-public class Solution_P_L2_72412_순위검색_정세린 {
+public class Solution_P_L1_72410_신규아이디추천_정세린 {
 	static class Solution {
 		public String solution(String new_id) {
 			String answer = "";
