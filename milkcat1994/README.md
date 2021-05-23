@@ -270,6 +270,9 @@
  
 
 ## 5월 4주
+### L1
+* [Solution_P_L1_67256_키패드누르기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월4주/Solution_P_L1_67256_키패드누르기.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/67256
 ### L2
 * [Solution_P_L2_12978_배달](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월4주/Solution_P_L2_12978_배달.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12978
