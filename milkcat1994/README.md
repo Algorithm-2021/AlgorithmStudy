@@ -278,3 +278,10 @@
 ### L2
 * [Solution_P_L2_12978_배달](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월4주/Solution_P_L2_12978_배달.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12978
+
+ 
+
+## 5월 5주
+### L2
+* [Solution_P_L2_42586_기능개발](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월5주/Solution_P_L2_42586_기능개발.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42586
