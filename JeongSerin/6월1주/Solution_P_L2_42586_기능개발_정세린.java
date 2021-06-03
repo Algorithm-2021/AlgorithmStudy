@@ -18,7 +18,7 @@ package PROGRAMMERS;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Solution_L2_42586_기능개발_정세린 {
+public class Solution_P_L2_42586_기능개발_정세린 {
 
 	static class Solution {
 		public int[] solution(int[] progresses, int[] speeds) {
