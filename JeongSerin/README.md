@@ -116,4 +116,14 @@
   | [P_L1__키패드누르기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%944%EC%A3%BC/Solution_P_L1_67256_%ED%82%A4%ED%8C%A8%EB%93%9C%EB%88%84%EB%A5%B4%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/67256 |
   | [P_L1_42839_소수찾기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%944%EC%A3%BC/Solution_P_L1_42839_%EC%86%8C%EC%88%98%EC%B0%BE%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42839 |
   | [P_L2_12978_배달](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%944%EC%A3%BC/Solution_P_L2_12978_%EB%B0%B0%EB%8B%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12978 |
+  
+  ### 6월
+
+- 1~4주
+
+  | 문제                                       | 출처                                    |
+  | ---------------------------------------- | ------------------------------------- |
+  | [P_L2_42586_기능개발]() | https://programmers.co.kr/learn/courses/30/lessons/42586 |
+  | [P_L2_42860_조이스틱]() | https://programmers.co.kr/learn/courses/30/lessons/42860 |
+  | [P_L3_49189_가장먼노드]() | https://programmers.co.kr/learn/courses/30/lessons/49189 |
   | []() |  |
