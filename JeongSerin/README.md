@@ -125,5 +125,5 @@
   | ---------------------------------------- | ------------------------------------- |
   | [P_L2_42586_기능개발](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%941%EC%A3%BC/Solution_P_L2_42586_%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42586 |
   | [P_L2_42860_조이스틱](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%941%EC%A3%BC/Solution_P_L2_42860_%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42860 |
-  | [P_L3_49189_가장먼노드]() | https://programmers.co.kr/learn/courses/30/lessons/49189 |
+  | [P_L3_49189_가장먼노드](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%941%EC%A3%BC/Solution_P_L3_49189_%EA%B0%80%EC%9E%A5%EB%A8%BC%EB%85%B8%EB%93%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/49189 |
   | []() |  |
