@@ -14,7 +14,7 @@
 time : 1 Hour 0 Minute
 
 풀이
-각 progresses 에 speeds를 더해 100을 넘을떄마다 큐에 추가하여 계산
+다익스트라를 이용하여 풀이
 
 */
 
