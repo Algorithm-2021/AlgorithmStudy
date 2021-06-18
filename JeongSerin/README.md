@@ -129,7 +129,7 @@
   | [P_L2_64061_크레인인형뽑기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%942%EC%A3%BC/Solution_P_L2_12977_%ED%81%AC%EB%A0%88%EC%9D%B8%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/64061 |
   | [P_L2_12977_소수만들기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%942%EC%A3%BC/Solution_P_L2_12977_%EC%86%8C%EC%88%98%EB%A7%8C%EB%93%A4%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12977 |
   | [B_G4_1806_부분합]() | https://www.acmicpc.net/problem/1806 |
-  | [P_L2_43165_타겟넘버]() | https://programmers.co.kr/learn/courses/30/lessons/43165 |
+  | [P_L2_43165_타겟넘버](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%943%EC%A3%BC/Solution_P_L2_43165_%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/43165 |
   | [P_L2_72411_메뉴리뉴얼]() | https://programmers.co.kr/learn/courses/30/lessons/72411 |
   | [P_L2_12981_영어끝말잇기]() | https://programmers.co.kr/learn/courses/30/lessons/12981 |
   | [P_L2_49993_스킬트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%943%EC%A3%BC/Solution_P_L2_49993_%EC%8A%A4%ED%82%AC%ED%8A%B8%EB%A6%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/49993 |
