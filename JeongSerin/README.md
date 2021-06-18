@@ -132,5 +132,5 @@
   | [P_L2_43165_타겟넘버]() | https://programmers.co.kr/learn/courses/30/lessons/43165 |
   | [P_L2_72411_메뉴리뉴얼]() | https://programmers.co.kr/learn/courses/30/lessons/72411 |
   | [P_L2_12981_영어끝말잇기]() | https://programmers.co.kr/learn/courses/30/lessons/12981 |
-  | [P_L2_49993_]() | https://programmers.co.kr/learn/courses/30/lessons/49993 |
+  | [P_L2_49993_스킬트리]() | https://programmers.co.kr/learn/courses/30/lessons/49993 |
   | []() |  |
