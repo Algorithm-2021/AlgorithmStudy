@@ -34,12 +34,10 @@ public class Solution_P_L2_12981_영어끝말잇기 {
 			str = words[i];
 			if(tc != words[i].charAt(0) || set.contains(str)) {
 				answer = new int[] {(i%n)+1, i/n+1};
-				System.out.println(words[i]+" "+i);
 				break;
 			}
 			
 			set.add(str);
-			System.out.println(str);
 			tc = str.charAt(str.length()-1);
 		}
 		return answer;
