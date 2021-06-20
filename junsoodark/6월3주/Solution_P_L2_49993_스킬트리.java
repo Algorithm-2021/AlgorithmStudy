@@ -1,20 +1,20 @@
 /*
 정확성 테스트
 
-테스트 1 〉	통과 (0.26ms, 54.7MB)
-테스트 2 〉	통과 (0.26ms, 52.2MB)
-테스트 3 〉	통과 (0.28ms, 53.1MB)
-테스트 4 〉	통과 (0.23ms, 53.3MB)
-테스트 5 〉	통과 (0.25ms, 52.3MB)
-테스트 6 〉	통과 (0.24ms, 51.7MB)
-테스트 7 〉	통과 (0.52ms, 53.9MB)
-테스트 8 〉	통과 (0.42ms, 53MB)
-테스트 9 〉	통과 (0.23ms, 52.2MB)
-테스트 10 〉	통과 (0.24ms, 52MB)
-테스트 11 〉	통과 (0.26ms, 52.5MB)
-테스트 12 〉	통과 (0.38ms, 52.5MB)
-테스트 13 〉	통과 (0.29ms, 52.9MB)
-테스트 14 〉	통과 (0.28ms, 52MB)
+테스트 1 〉	통과 (0.12ms, 52.8MB)
+테스트 2 〉	통과 (0.13ms, 52MB)
+테스트 3 〉	통과 (0.14ms, 53MB)
+테스트 4 〉	통과 (0.13ms, 52.8MB)
+테스트 5 〉	통과 (0.12ms, 53.4MB)
+테스트 6 〉	통과 (0.09ms, 51.8MB)
+테스트 7 〉	통과 (0.15ms, 52.5MB)
+테스트 8 〉	통과 (0.11ms, 51.9MB)
+테스트 9 〉	통과 (0.13ms, 51.9MB)
+테스트 10 〉	통과 (0.12ms, 53.4MB)
+테스트 11 〉	통과 (0.15ms, 52.3MB)
+테스트 12 〉	통과 (0.13ms, 52.3MB)
+테스트 13 〉	통과 (0.15ms, 53.3MB)
+테스트 14 〉	통과 (0.15ms, 52.4MB)
 
 time : 0 Hour 20 Minute
 
@@ -27,8 +27,6 @@ hash를 이용하여 스킬트리에 있는 스킬들을 추출한후 추출한 
 package algo_6월3주;
 
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class Solution_P_L2_49993_스킬트리 {
 	public static void main(String[] args) {
@@ -46,18 +44,15 @@ public class Solution_P_L2_49993_스킬트리 {
 		int answer = 0;
 		for (int i = 0; i < skill_trees.length; i++) {
 			char tmpArr[] = skill_trees[i].toCharArray();
-			Queue<Character> q = new LinkedList<>();
+			int cnt = 0;
+			boolean find = true;
 			for (int j = 0; j < tmpArr.length; j++) {
 				if (hs.contains(tmpArr[j])) {
-					q.offer(tmpArr[j]);
-				}
-			}
-			int size = q.size();
-			boolean find = true;
-			for (int j = 0; j < size; j++) {
-				if (arr[j] != q.poll()) {
-					find = false;
-					break;
+					if (arr[cnt] != tmpArr[j]) {
+						find = false;
+						break;
+					}
+					cnt++;
 				}
 			}
 			if (find) {
