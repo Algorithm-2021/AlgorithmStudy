@@ -134,6 +134,6 @@
   | [P_L2_12981_영어끝말잇기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%943%EC%A3%BC/Solution_P_L2_12981_%EC%98%81%EC%96%B4%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12981 |
   | [P_L2_49993_스킬트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%943%EC%A3%BC/Solution_P_L2_49993_%EC%8A%A4%ED%82%AC%ED%8A%B8%EB%A6%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/49993 |
   | [P_L2_49994_방문길이](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%944%EC%A3%BC/Solution_P_L2_49994_%EB%B0%A9%EB%AC%B8%EA%B8%B8%EC%9D%B4_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/49994 |
-  | [P_L2_12973_짝지어제거하기]() | https://programmers.co.kr/learn/courses/30/lessons/12973 |
-  | [P_L2_42577_전화번호목록]() | https://programmers.co.kr/learn/courses/30/lessons/42577 |
+  | [P_L2_12973_짝지어제거하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%944%EC%A3%BC/Solution_P_L2_12973_%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12973 |
+  | [P_L2_42577_전화번호목록](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%944%EC%A3%BC/Solution_P_L2_42577_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%AA%A9%EB%A1%9D_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42577 |
   | []() |  |
