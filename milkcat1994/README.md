@@ -285,3 +285,19 @@
 ### L2
 * [Solution_P_L2_42586_기능개발](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월5주/Solution_P_L2_42586_기능개발.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42586
+
+ 
+
+## 6월 3주
+### L2
+* [Solution_P_L2_12981_영어끝말잇기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/6월3주/Solution_P_L2_12981_영어끝말잇기.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12981
+* [Solution_P_L2_43165_타겟넘버](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/6월3주/Solution_P_L2_43165_타겟넘버.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/43165
+
+ 
+
+## 7월
+### L1
+* [Solution_P_L1_42576_완주하지못한선수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L1_42576_완주하지못한선수.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42576
