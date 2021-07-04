@@ -1,11 +1,10 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 
 /*
  * -위장-
  * 1. 완전탐색 풀이
+ * 2. 해당 분류 갯수+1을 가능성으로 두고 모두 곱한 뒤 모두 선택하지 않는 1가지 경우 빼주기
  * 
  * 테스트 20 〉	통과 (0.06ms, 52.5MB)
  * 테스트 21 〉	통과 (0.07ms, 52.1MB)
@@ -23,27 +22,18 @@ import java.util.List;
 //출처 : https://programmers.co.kr/learn/courses/30/lessons/42578
 public class Solution_P_L2_42578_위장 {
 	public int solution(String[][] clothes) {
-		
+		int answer = 1;
 		HashMap<String, Integer> hm = new HashMap<>();
 		for(String[] cloth : clothes) {
 			hm.put(cloth[1], hm.getOrDefault(cloth[1], 0)+1);
 		}
 		
-		List<Integer> list = new ArrayList<>();
 		Iterator<Integer> iter = hm.values().iterator();
 		while(iter.hasNext()) {
-			list.add(iter.next());
+			answer *= iter.next()+1;
 		}
 		
-		return combi(list, 0, 1) -1;
-	}
-	
-	static int combi(List<Integer> list, int idx, int able) {
-		if(list.size() <= idx) {
-			return able;
-		}
-		
-		return combi(list, idx+1, able * list.get(idx)) + combi(list, idx+1, able);
+		return answer - 1;
 	}
 
 	public static void main(String[] args) {
