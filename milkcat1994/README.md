@@ -301,3 +301,6 @@
 ### L1
 * [Solution_P_L1_42576_완주하지못한선수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L1_42576_완주하지못한선수.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42576
+### L2
+* [Solution_P_L2_42578_위장](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L2_42578_위장.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42578
