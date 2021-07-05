@@ -41,11 +41,11 @@ public class Solution_P_L3_42579_베스트앨범 {
 			int[] answer = new int[200];
 
 			for (int i = 0; i < genres.length; i++) {
-				// 3. 교유번호가 낮은노래 우선순위 높이기
+				// 3. 교유번호가 낮은노래 우선순위 높이기 = code
 				int code = plays[i] * 10000 + genres.length - i;
-				songs.put(genres[i]+i, code);
+				songs.put(genres[i]+i, code); //노래뒤에 고유번호 부여(같은장르 맵에 넣게)
 				int sum = genreSum.getOrDefault(genres[i], 0) + plays[i];
-				genreSum.put(genres[i], sum);
+				genreSum.put(genres[i], sum); //재생횟수 높고 + 고유번호 낮을수록 우선순위 높게 합산부여
 			}
 			//genreSum value기준 내림차순정렬
 			List<String> sortGenreSum = new ArrayList<>(genreSum.keySet());
@@ -58,17 +58,21 @@ public class Solution_P_L3_42579_베스트앨범 {
 			int totalcnt=0;
 			for(String key : sortGenreSum) {
 //				System.out.println("이번 장르는 " + key+"이고 총 재생횟수는"+ genreSum.get(key));
-				int limit=0;
+				
+				int limit=0; //장르별로 2개이상시 더이상 넣지않음
 				for(String key2 : sortSongs) {
 					if(key2.contains(key)&&limit<2) {
 //						System.out.println(key2+" " + songs.get(key2));
-						int code = songs.get(key2)%10000;
+						
+						// 고유번호 다시 원상복귀!
+						int code = songs.get(key2)%10000; 
 						code = genres.length-code;
 						answer[totalcnt++]=code;
 						limit++;
 					}
 				}
 			}
+			//빈 배열 잘라내기
 			int[] realAnswer = Arrays.copyOfRange(answer, 0, totalcnt);
 			return realAnswer;
 
