@@ -146,5 +146,5 @@
   | [P_L1_42576_완주하지못한선수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L1_42576_%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42576 |
   | [P_L2_42578_위장](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L2_42578_%EC%9C%84%EC%9E%A5_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42578 |
   | [P_L3_42579_베스트앨범](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L3_42579_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42579 |
-  | [P_L2_42587_프]() | https://programmers.co.kr/learn/courses/30/lessons/42587 |
+  | [P_L2_42587_프린터](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L2_42587_%ED%94%84%EB%A6%B0%ED%84%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42587 |
   | []() |  |
