@@ -308,6 +308,8 @@
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42587
 * [Solution_P_L2_1844_게임맵최단거리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L2_1844_게임맵최단거리.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/1844
+* [Solution_P_L2_42842_카펫](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L2_42842_카펫.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42842
 ### L3
 * [Solution_P_L3_42579_베스트앨범](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_42579_베스트앨범.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42579
