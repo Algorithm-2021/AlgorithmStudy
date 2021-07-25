@@ -15,7 +15,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class Solution_L3_42628_이중우선순위큐_정세린 {
+public class Solution_P_L3_42628_이중우선순위큐_정세린 {
 	static class Solution {
 		public int[] solution(String[] operations) {
 			int[] answer = { 0, 0 };
