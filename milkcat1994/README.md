@@ -319,3 +319,5 @@
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42898
 * [Solution_P_L3_12927_야근지수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_12927_야근지수.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12927
+* [Solution_P_L3_42884_단속카메라](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_42884_단속카메라.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42884
