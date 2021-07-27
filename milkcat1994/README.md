@@ -317,3 +317,5 @@
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42628
 * [Solution_P_L3_42898_등굣길](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_42898_등굣길.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/42898
+* [Solution_P_L3_12927_야근지수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_12927_야근지수.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/12927
