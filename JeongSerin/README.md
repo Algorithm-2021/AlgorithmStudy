@@ -117,7 +117,7 @@
   | [P_L1_42839_소수찾기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%944%EC%A3%BC/Solution_P_L1_42839_%EC%86%8C%EC%88%98%EC%B0%BE%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42839 |
   | [P_L2_12978_배달](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/5%EC%9B%944%EC%A3%BC/Solution_P_L2_12978_%EB%B0%B0%EB%8B%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12978 |
   
-  ### 6월
+### 6월
 
 - 1~4주
 
@@ -137,7 +137,7 @@
   | [P_L2_12973_짝지어제거하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%944%EC%A3%BC/Solution_P_L2_12973_%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12973 |
   | [P_L2_42577_전화번호목록](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/6%EC%9B%944%EC%A3%BC/Solution_P_L2_42577_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%AA%A9%EB%A1%9D_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42577 |
   
-  ### 7월
+### 7월
 
 - 1~4주
 
