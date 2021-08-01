@@ -147,8 +147,13 @@
   | [P_L2_42578_위장](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L2_42578_%EC%9C%84%EC%9E%A5_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42578 |
   | [P_L3_42579_베스트앨범](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L3_42579_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42579 |
   | [P_L2_42587_프린터](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%941%EC%A3%BC/Solution_P_L2_42587_%ED%94%84%EB%A6%B0%ED%84%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42587 |
-  | [P_L2_1844_게임맵최단거리]() | https://programmers.co.kr/learn/courses/30/lessons/1844 |
+  | [P_L2_1844_게임맵최단거리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%943%EC%A3%BC/Solution_P_L2_1844_%EA%B2%8C%EC%9E%84%EB%A7%B5%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/1844 |
   | [P_L3_42895_N으로표현]() | https://programmers.co.kr/learn/courses/30/lessons/42895 |
   | [P_L2_42842_카펫](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%943%EC%A3%BC/Solution_P_L2_42842_%EC%B9%B4%ED%8E%AB_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42842 |
   | [P_L3_42628_이중우선순위큐](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%943%EC%A3%BC/Solution_P_L3_42628_%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42628 |
+  | [P_L2_81302_거리두기확인하기]() | https://programmers.co.kr/learn/courses/30/lessons/81302 |
+  | [P_L3_42898_등굣길]() | https://programmers.co.kr/learn/courses/30/lessons/42898 |
+  | [P_L3_12927_야근지수]() | https://programmers.co.kr/learn/courses/30/lessons/12927 |
+  | [P_L3_42884_단속카메라]() | https://programmers.co.kr/learn/courses/30/lessons/42884 |
+  
   | []() |  |
