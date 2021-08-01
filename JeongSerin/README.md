@@ -153,6 +153,6 @@
   | [P_L3_42628_이중우선순위큐](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%943%EC%A3%BC/Solution_P_L3_42628_%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42628 |
   | [P_L2_81302_거리두기확인하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%944%EC%A3%BC/Solution_P_L2_81302_%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/81302 |
   | [P_L3_42898_등굣길](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%944%EC%A3%BC/Solution_P_L3_42898_%EB%93%B1%EA%B5%A3%EA%B8%B8_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/42898 |
-  | [P_L3_12927_야근지수]() | https://programmers.co.kr/learn/courses/30/lessons/12927 |
+  | [P_L3_12927_야근지수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/7%EC%9B%944%EC%A3%BC/Solution_P_L3_12927_%EC%95%BC%EA%B7%BC%EC%A7%80%EC%88%98_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12927 |
   | [P_L3_42884_단속카메라]() | https://programmers.co.kr/learn/courses/30/lessons/42884 |
   | []() |  |
