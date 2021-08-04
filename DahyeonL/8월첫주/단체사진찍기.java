@@ -1,3 +1,6 @@
+// 테스트 1 〉	통과 (959.01ms, 81.6MB)
+
+
 class Solution {
     static int answer = 0;
     static int count = 0;
