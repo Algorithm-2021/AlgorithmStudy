@@ -333,3 +333,6 @@
 ### L2
 * [Solution_P_L2_1835_단체사진찍기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L2_1835_단체사진찍기.java)
 > * 출처 :https://programmers.co.kr/learn/courses/30/lessons/1835
+### L3
+* [Solution_P_L3_81303_표편집](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L3_81303_표편집.java)
+> * 출처 :https://programmers.co.kr/learn/courses/30/lessons/81303
