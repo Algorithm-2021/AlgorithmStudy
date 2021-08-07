@@ -1,3 +1,9 @@
+/*
+테스트 1 〉	통과 (1014.84ms, 62.8MB)
+ * 순열, 완탐
+ * 40m
+ * https://programmers.co.kr/learn/courses/30/lessons/1835
+ */
 package PROGRAMMERS;
 
 import java.util.Arrays;
