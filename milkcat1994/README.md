@@ -96,7 +96,9 @@
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
   | [Main_B_G4_4803_트리](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월/Main_B_G4_4803_트리.java) | https://www.acmicpc.net/problem/4803 |
+  | Solution_P_L3_42890_후보키 | https://programmers.co.kr/learn/courses/30/lessons/42890 |
   | [Main_B_G5_11578_팀원모집](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월/Main_B_G5_11578_팀원모집.java) | https://www.acmicpc.net/problem/11578 |
+  | Main_B_G5_20056_마법사상어와파이어볼 | https://www.acmicpc.net/problem/20056 |
   | [Solution_P_L3_43238_입국심사](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월/Solution_P_L3_43238_입국심사.java) | https://programmers.co.kr/learn/courses/30/lessons/43238 |
   | [Solution_P_L3_12938_최고의집합](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월/Solution_P_L3_12938_최고의집합.java) | https://programmers.co.kr/learn/courses/30/lessons/12938 |
   | [Solution_P_L3_49191_순위](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/4월/Solution_P_L3_49191_순위.java) | https://programmers.co.kr/learn/courses/30/lessons/49191 |
@@ -114,9 +116,12 @@
   | ---------------------------------------- | ------------------------------------- |
   | [Main_B_G4_1484_다이어트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Main_B_G4_1484_다이어트.java) | https://www.acmicpc.net/problem/1484 |
   | [Solution_P_L3_77486_다단계칫솔판매](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L3_77486_다단계칫솔판매.java) | https://programmers.co.kr/learn/courses/30/lessons/77486 |
+  | Solution_P_L2_17680_캐시 | https://programmers.co.kr/learn/courses/30/lessons/17680 |
   | [Solution_P_L2_62048_멀쩡한사각형](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L2_62048_멀쩡한사각형.java) | https://programmers.co.kr/learn/courses/30/lessons/62048 |
   | [Solution_P_L2_77485_행렬테두리회전하기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L2_77485_행렬테두리회전하기.java) | https://programmers.co.kr/learn/courses/30/lessons/77485 |
   | [Solution_P_L2_72410_신규아이디추천](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L2_72410_신규아이디추천.java) | https://programmers.co.kr/learn/courses/30/lessons/72410 |
+  | Solution_P_L2_60057_문자열압축 | https://programmers.co.kr/learn/courses/30/lessons/60057 |
+  | Solution_P_L2_72412_순위검색 | https://programmers.co.kr/learn/courses/30/lessons/72412 |
   | [Solution_P_L2_12978_배달](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L2_12978_배달.java) | https://programmers.co.kr/learn/courses/30/lessons/12978 |
   | [Solution_P_L2_42586_기능개발](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L2_42586_기능개발.java) | https://programmers.co.kr/learn/courses/30/lessons/42586 |
   | [Solution_P_L1_77484_로또의최고순위와최저순위](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L1_77484_로또의최고순위와최저순위.java) | https://programmers.co.kr/learn/courses/30/lessons/77484 |
@@ -129,8 +134,19 @@
 
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
+  | Solution_P_L3_49189_가장먼노드 | https://programmers.co.kr/learn/courses/30/lessons/49189 |
+  | [Solution_P_L2_42586_기능개발](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/5월/Solution_P_L2_42586_기능개발.java) | https://programmers.co.kr/learn/courses/30/lessons/42586 |
+  | Solution_P_L2_42860_조이스틱 | https://programmers.co.kr/learn/courses/30/lessons/42860 |
   | [Solution_P_L2_12981_영어끝말잇기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/6월/Solution_P_L2_12981_영어끝말잇기.java) | https://programmers.co.kr/learn/courses/30/lessons/12981 |
+  | Solution_P_L2_64061_크레인인형뽑기 | https://programmers.co.kr/learn/courses/30/lessons/64061 |
+  | Solution_P_L2_12977_소수만들기 | https://programmers.co.kr/learn/courses/30/lessons/12977 |
+  | Main_B_G4_1806_부분합 | https://www.acmicpc.net/problem/1806 |
   | [Solution_P_L2_43165_타겟넘버](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/6월/Solution_P_L2_43165_타겟넘버.java) | https://programmers.co.kr/learn/courses/30/lessons/43165 |
+  | Solution_P_L2_72411_메뉴리뉴얼 | https://programmers.co.kr/learn/courses/30/lessons/72411 |
+  | Solution_P_L2_49993_스킬트리 | https://programmers.co.kr/learn/courses/30/lessons/49993 |
+  | Solution_P_L2_49994_방문길이 | https://programmers.co.kr/learn/courses/30/lessons/49994 |
+  | Solution_P_L2_12973_짝지어제거하기 | https://programmers.co.kr/learn/courses/30/lessons/12973 |
+  | Solution_P_L2_42577_전화번호목록 | https://programmers.co.kr/learn/courses/30/lessons/42577 |
 
  
 
@@ -139,6 +155,7 @@
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
   | [Solution_P_L3_42579_베스트앨범](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_42579_베스트앨범.java) | https://programmers.co.kr/learn/courses/30/lessons/42579 |
+  | Solution_P_L3_42895_N으로표현 | https://programmers.co.kr/learn/courses/30/lessons/42895 |
   | [Solution_P_L3_42628_이중우선순위큐](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_42628_이중우선순위큐.java) | https://programmers.co.kr/learn/courses/30/lessons/42628 |
   | [Solution_P_L3_42898_등굣길](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_42898_등굣길.java) | https://programmers.co.kr/learn/courses/30/lessons/42898 |
   | [Solution_P_L3_12927_야근지수](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/7월/Solution_P_L3_12927_야근지수.java) | https://programmers.co.kr/learn/courses/30/lessons/12927 |
