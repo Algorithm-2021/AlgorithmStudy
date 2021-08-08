@@ -25,10 +25,13 @@ public class Solution_P_L2_77885_2개이하로다른비트 {
 		for(int i=0; i<length; ++i) {
 			long number = numbers[i];
 			int idx=0;
+			// 처음으로 0을 만나는 지점 찾기
 			while((number & (1L<<idx++)) != 0);
 			
+			// 해당 지점 1로 변경해주기
 			idx--;
 			number |= (1L<<idx);
+			// 만약 0번째 지점이 아니라면 이전 지점(1인 부분) 0으로 변경
 			if(idx != 0) {
 				idx--;
 				number ^= (1L<<idx);
