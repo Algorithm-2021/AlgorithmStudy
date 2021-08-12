@@ -174,6 +174,7 @@
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
   | [Solution_P_L3_81303_표편집](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L3_81303_표편집.java) | https://programmers.co.kr/learn/courses/30/lessons/81303 |
+  | [Solution_P_L3_12904_가장긴팰린드롬](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L3_12904_가장긴팰린드롬.java) | https://programmers.co.kr/learn/courses/30/lessons/12904 |
   | [Solution_P_L2_1835_단체사진찍기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L2_1835_단체사진찍기.java) | https://programmers.co.kr/learn/courses/30/lessons/1835 |
   | [Solution_P_L2_68645_삼각달팽이](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L2_68645_삼각달팽이.java) | https://programmers.co.kr/learn/courses/30/lessons/68645 |
   | [Solution_P_L2_77885_2개이하로다른비트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L2_77885_2개이하로다른비트.java) | https://programmers.co.kr/learn/courses/30/lessons/77885 |
