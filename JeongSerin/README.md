@@ -166,4 +166,8 @@
   | [P_L3_81303_표편집]() | https://programmers.co.kr/learn/courses/30/lessons/81303 |
   | [P_L1_81301_숫자문자열과영단어](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/8%EC%9B%941%EC%A3%BC/Solution_P_L1_81301_%EC%88%AB%EC%9E%90%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC%EC%98%81%EB%8B%A8%EC%96%B4_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/81301 |
   | [P_L2_68645_삼각달팽이]() | https://programmers.co.kr/learn/courses/30/lessons/68645 |
+  | [P_L2_77885_2개이하로다른비트]() | https://programmers.co.kr/learn/courses/30/lessons/77885 |
+  | [P_L3_17676_1차추석트래픽]() | https://programmers.co.kr/learn/courses/30/lessons/17676 |
+  | [P_L2_12985_예상대진표](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/8%EC%9B%942%EC%A3%BC/Solution_P_L2_12985_%EC%98%88%EC%83%81%EB%8C%80%EC%A7%84%ED%91%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12985 |
+  | [P_L3_12904_가장긴팰린드롬]() | https://programmers.co.kr/learn/courses/30/lessons/12904 |
   | []() |  |
