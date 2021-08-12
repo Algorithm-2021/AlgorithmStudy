@@ -169,5 +169,5 @@
   | [P_L2_77885_2개이하로다른비트]() | https://programmers.co.kr/learn/courses/30/lessons/77885 |
   | [P_L3_17676_1차추석트래픽]() | https://programmers.co.kr/learn/courses/30/lessons/17676 |
   | [P_L2_12985_예상대진표](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/8%EC%9B%942%EC%A3%BC/Solution_P_L2_12985_%EC%98%88%EC%83%81%EB%8C%80%EC%A7%84%ED%91%9C_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12985 |
-  | [P_L3_12904_가장긴팰린드롬]() | https://programmers.co.kr/learn/courses/30/lessons/12904 |
+  | [P_L3_12904_가장긴팰린드롬](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/8%EC%9B%942%EC%A3%BC/Solution_P_L3_12904_%EA%B0%80%EC%9E%A5%EA%B8%B4%ED%8E%A0%EB%A6%B0%EB%93%9C%EB%A1%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12904 |
   | []() |  |
