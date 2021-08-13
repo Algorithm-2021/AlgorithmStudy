@@ -59,17 +59,7 @@ public class Solution_P_L3_17676_1차추석트래픽_정세린 {
 
 				logs[i] = new Log(date, (int) start, (int) end);
 			}
-
-			Arrays.sort(logs, new Comparator<Log>() {
-				@Override
-				public int compare(Log o1, Log o2) {
-					int endSub = o1.end - o2.end;
-					if (endSub != 0) return endSub;
-					int startSub = o1.start - o2.start;
-					return startSub;
-				}
-			});
-
+			
 			int max = 1;
 			for (int i = 0; i < len; i++) {
 				int cnt = 1;
