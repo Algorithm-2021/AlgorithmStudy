@@ -174,6 +174,7 @@
   | 문제                                       | 출처                                    |
   | ---------------------------------------- | ------------------------------------- |
   | [Main_B_G4_20040_사이클게임](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Main_B_G4_20040_사이클게임.java) | https://www.acmicpc.net/problem/11578 |
+  | [Main_B_G5_1756_피자굽기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Main_B_G5_1756_피자굽기.java) | https://www.acmicpc.net/problem/11578 |
   | [Solution_P_L3_81303_표편집](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L3_81303_표편집.java) | https://programmers.co.kr/learn/courses/30/lessons/81303 |
   | [Solution_P_L3_12904_가장긴팰린드롬](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L3_12904_가장긴팰린드롬.java) | https://programmers.co.kr/learn/courses/30/lessons/12904 |
   | [Solution_P_L3_17676_추석트래픽](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L3_17676_추석트래픽.java) | https://programmers.co.kr/learn/courses/30/lessons/17676 |
