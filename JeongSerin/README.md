@@ -172,6 +172,6 @@
   | [P_L3_12904_가장긴팰린드롬](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/8%EC%9B%942%EC%A3%BC/Solution_P_L3_12904_%EA%B0%80%EC%9E%A5%EA%B8%B4%ED%8E%A0%EB%A6%B0%EB%93%9C%EB%A1%AC_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/12904 |
   | [P_L3_1836_리틀프렌즈사천성]() | https://programmers.co.kr/learn/courses/30/lessons/1836 |
   | [B_G5_1756_피자굽기](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/8%EC%9B%943%EC%A3%BC/Main_B_G5_1756_%ED%94%BC%EC%9E%90%EA%B5%BD%EA%B8%B0_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://www.acmicpc.net/problem/1756 |
-  | [P_L3_49191_순위]() | https://programmers.co.kr/learn/courses/30/lessons/49191 |
+  | [P_L3_49191_순위](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/JeongSerin/4%EC%9B%943%EC%A3%BC/Solution_P_L3_49191_%EC%88%9C%EC%9C%84_%EC%A0%95%EC%84%B8%EB%A6%B0.java) | https://programmers.co.kr/learn/courses/30/lessons/49191 |
   | [B_G4_20040_사이클게임]() | https://www.acmicpc.net/problem/20040 |
   | []() |  |
