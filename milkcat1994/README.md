@@ -187,5 +187,12 @@
   | [Solution_P_L2_77885_2개이하로다른비트](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L2_77885_2개이하로다른비트.java) | https://programmers.co.kr/learn/courses/30/lessons/77885 |
   | [Solution_P_L2_12985_예상대진표](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L2_12985_예상대진표.java) | https://programmers.co.kr/learn/courses/30/lessons/12985 |
   | [Solution_P_L1_81301_숫자문자열과영단어](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/8월/Solution_P_L1_81301_숫자문자열과영단어.java) | https://programmers.co.kr/learn/courses/30/lessons/1835 |
-  |  |  |
+
  
+
+### 9월
+
+  | 문제                                       | 출처                                    |
+  | ---------------------------------------- | ------------------------------------- |
+  | [Main_B_G3_1167_트리의지름](https://github.com/Algorithm-2021/AlgorithmStudy/blob/master/milkcat1994/9월/Main_B_G3_1167_트리의지름.java) | https://www.acmicpc.net/problem/11578 |
+  |  |  |
